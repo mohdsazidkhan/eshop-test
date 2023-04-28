@@ -1,0 +1,238 @@
+{
+  "publications": [
+    {
+      "label": "The Straits Times",
+      "shortLabel": "st",
+      "tagLang": "English",
+      "cssLang": "",
+      "link": "publication-st.html",
+      "tagline": "Bringing you in-depth analyses, impactful commentaries and breaking stories",
+      "brandImg": "images/placeholders/st.jpg",
+      "brandLogo": "images/logos/TheStraitsTimes.svg",
+      "imgLink": "images/logos/st-mini.png",
+      "imgLinkClear": "images/logos/st-mini-clear.png",
+      "brandColor": "#182d56",
+      "current": "Y",
+      "child": false
+    },
+    {
+      "label": "联合早报",
+      "shortLabel": "zb",
+      "tagLang": "Chinese",
+      "cssLang": "zh",
+      "link": "#",
+      "tagline": "全方位报道让您随时与世界接轨",
+      "brandImg": "images/placeholders/zb.jpg",
+      "brandLogo": "images/logos/TheStraitsTimes.svg",
+      "imgLink": "images/logos/zb-mini.png",
+      "imgLinkClear": "images/logos/zb-mini-clear.png",
+      "brandColor": "#a40034",
+      "current": "N",
+      "child": false
+    },
+    {
+      "label": "The Business Times",
+      "shortLabel": "bt",
+      "tagLang": "English",
+      "cssLang": "",
+      "link": "#",
+      "tagline": "Get insightful analyses of the latest business news and trends",
+      "brandImg": "images/placeholders/bt.jpg",
+      "brandLogo": "images/logos/TheStraitsTimes.svg",
+      "imgLink": "images/logos/bt-mini.png",
+      "imgLinkClear": "images/logos/bt-mini-clear.png",
+      "brandColor": "#00415b",
+      "current": "N",
+      "child": false
+    },
+    {
+      "label": "Berita Harian",
+      "shortLabel": "bh",
+      "tagLang": "Malay",
+      "cssLang": "",
+      "link": "#",
+      "tagline": "Memaparkan berita utama dari dalam dan luar negara, melaporkan hal yang menarik perhatian dan kepentingan masyarakat Melayu Singapura",
+      "brandImg": "images/placeholders/bh.jpg",
+      "brandLogo": "images/logos/TheStraitsTimes.svg",
+      "imgLink": "images/logos/bh-mini.png",
+      "imgLinkClear": "images/logos/bh-mini-clear.png",
+      "brandColor": "#00509f",
+      "current": "N",
+      "child": false
+    },
+    {
+      "label": "Tamil Murasu",
+      "shortLabel": "tm",
+      "tagLang": "Tamil",
+      "cssLang": "",
+      "link": "#",
+      "tagline": "தமிழ் பேசும் சமூகத்திற்காக பிரத்தியேகமாகத் தயாரிக்கப்படும் பல்வேறு வகையான செய்திகள்",
+      "brandImg": "images/placeholders/tm.jpg",
+      "brandLogo": "images/logos/TheStraitsTimes.svg",
+      "imgLink": "images/logos/tm-mini.png",
+      "imgLinkClear": "images/logos/tm-mini-clear.png",
+      "brandColor": "#b0073d",
+      "child": false
+    },
+    {
+      "label": "联合晚报",
+      "shortLabel": "wb",
+      "tagLang": "Chinese",
+      "cssLang": "zh",
+      "link": "#",
+      "tagline": "社会时事、保健娱乐，给您多元观点！",
+      "brandImg": "images/placeholders/wb.jpg",
+      "brandLogo": "images/logos/TheStraitsTimes.svg",
+      "imgLink": "images/logos/wb-mini.png",
+      "imgLinkClear": "images/logos/wb-mini-clear.png",
+      "brandColor": "#0198dd",
+      "current": "N",
+      "child": false
+    },
+    {
+      "label": "新明日报",
+      "shortLabel": "sm",
+      "tagLang": "Chinese",
+      "cssLang": "zh",
+      "link": "#",
+      "tagline": "紧扣民生，放眼国际，读者每日精神粮食。",
+      "brandImg": "images/placeholders/sm.jpg",
+      "brandLogo": "images/logos/TheStraitsTimes.svg",
+      "imgLink": "images/logos/sm-mini.png",
+      "imgLinkClear": "images/logos/sm-mini-clear.png",
+      "brandColor": "#fd133a",
+      "child": false
+    },
+    {
+      "label": "Tabla",
+      "shortLabel": "tabla",
+      "tagLang": "English",
+      "cssLang": "",
+      "link": "#",
+      "tagline": "The heartbeat of the Indian Community with exciting coverage on everything Indian",
+      "brandImg": "images/placeholders/tabla.jpg",
+      "brandLogo": "images/logos/TheStraitsTimes.svg",
+      "imgLink": "images/logos/tb-mini.png",
+      "imgLinkClear": "images/logos/tb-mini-clear.png",
+      "brandColor": "#b0073d",
+      "current": "N",
+      "child": false
+    }
+  ],
+  "studentPublications": [
+    {
+      "label": "ST IN",
+      "shortLabel": "st-in",
+      "tagLang": "English",
+      "cssLang": "",
+      "link": "publication-st-in.html",
+      "tagline": "Access high-quality content and learning activities of IN magazine on a digital platform by The Straits Times Schools",
+      "brandImg": "images/placeholders/st-in.jpg",
+      "brandLogo": "",
+      "imgLink": "",
+      "imgLinkClear": "",
+      "brandColor": "",
+      "current": "N",
+      "child": false
+    },
+    {
+      "label": "大拇指",
+      "shortLabel": "thumbsup",
+      "tagLang": "Chinese",
+      "cssLang": "zh",
+      "link": "#",
+      "tagline": "智慧全在指尖上. 高年级小学生报志.",
+      "brandImg": "images/placeholders/thumbup.jpg",
+      "brandLogo": "",
+      "imgLink": "",
+      "imgLinkClear": "",
+      "brandColor": "",
+      "current": "N",
+      "child": false
+    },
+    {
+      "label": "小拇指",
+      "shortLabel": "thumbsup-junior",
+      "tagLang": "Chinese",
+      "cssLang": "zh",
+      "link": "#",
+      "tagline": "智慧全在指尖上. 小学生入门报志",
+      "brandImg": "images/placeholders/thumbupliljnr.jpg",
+      "brandLogo": "",
+      "imgLink": "",
+      "imgLinkClear": "",
+      "brandColor": "",
+      "current": "N",
+      "child": false
+    },
+    {
+      "label": "早报逗号",
+      "shortLabel": "zb-comma",
+      "tagLang": "chinese",
+      "link": "#",
+      "tagline": "智慧全在指尖上. 中学生报志.",
+      "brandImg": "images/placeholders/zbcomma.jpg",
+      "brandLogo": "",
+      "imgLink": "",
+      "imgLinkClear": "",
+      "brandColor": "",
+      "current": "N",
+      "child": false
+    },
+    {
+      "label": "大拇指：看录像说话2",
+      "shortLabel": "thumbup-oral-2",
+      "tagLang": "Chinese",
+      "link": "#",
+      "tagline": "帮助小学生为PSLE口试做好准备",
+      "brandImg": "images/placeholders/zbcommaOral.jpg",
+      "brandLogo": "",
+      "imgLink": "",
+      "imgLinkClear": "",
+      "brandColor": "",
+      "current": "N",
+      "child": false
+    },
+    {
+      "label": "早报逗号；看录像说话3",
+      "shortLabel": "zb-comma-oral-3",
+      "tagLang": "Chinese",
+      "link": "#",
+      "tagline": "帮助中学生为O level口试做好准备.",
+      "brandImg": "images/placeholders/zbcommaOral2.jpg",
+      "brandLogo": "",
+      "imgLink": "",
+      "imgLinkClear": "",
+      "brandColor": "",
+      "current": "N",
+      "child": false
+    }
+  ],
+  "pubBrand": [
+    {
+      "label": "The Straits Times",
+      "shortHand": "ST",
+      "imageMini": "images/logos/ST-mini-color.png"
+    },
+    {
+      "label": "Lianhe Zaobao",
+      "shortHand": "ZB",
+      "imageMini": "images/logos/zb-mini-color.png"
+    },
+    {
+      "label": "The Business Times",
+      "shortHand": "BT",
+      "imageMini": "images/logos/BT-mini-color.png"
+    },
+    {
+      "label": "Berita Harian",
+      "shortHand": "BH",
+      "imageMini": "images/logos/BH-mini-color.png"
+    },
+    {
+      "label": "Tamil Murasu",
+      "shortHand": "TM",
+      "imageMini": "images/logos/TM-mini-color.png"
+    }
+  ]
+}

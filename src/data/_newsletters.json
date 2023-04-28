@@ -1,0 +1,18 @@
+{
+  "st_newsletter": [{
+    "newsletterID": "editors_picks",
+    "newsletterLabel": "Editor’s picks",
+    "description": "Get the best stories of the week, curated by ST editor Warren Fernandez, every Friday.",
+    "imageUrl": "images/icons/newsletter-st-editor.png"
+  }, {
+    "newsletterID": "morning_briefing",
+    "newsletterLabel": "Morning briefing",
+    "description": "Start your day with the top stories from The Straits Times newspaper and website.",
+    "imageUrl": "images/icons/newsletter-st-morning.png"
+  }, {
+    "newsletterID": "evening_update",
+    "newsletterLabel": "Evening update",
+    "description": "Catch up on the news of the day, delivered to your inbox in the evening.",
+    "imageUrl": "images/icons/newsletter-st-evening.png"
+  }]
+}

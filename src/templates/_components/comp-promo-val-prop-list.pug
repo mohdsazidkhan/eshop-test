@@ -1,0 +1,35 @@
+mixin comp-promo-val-prop-list(promo)
+  each val in comp_promo_val_prop_list
+    if val.id == promo.id
+      .comp.comp-promo-val-prop-list(id=val.id, style="background-color:" + val.settings[0].bg_color + ";", class=val.settings[0].text_color)
+        .comp-holder
+          .steps-container(class=val.settings[0].custom_class)
+            h2 !{val.settings[0].text_title}
+            if val.settings[0].sub_title != null
+              h4 !{val.settings[0].sub_title}
+            .container
+              case promo.id
+                when 'bt-plans-include'
+                  .row.justify-content-center
+                    if val.settings[0].steps_items
+                      each item in val.settings[0].steps_items
+                        .col-lg-3.col-md-4.col-sm-6.publication-plan-single
+                          img(src=item.img_link)
+                          h6 !{item.item_title}
+                          p !{item.item_text}
+                  - break
+                default
+                  .row.justify-content-center
+                    if val.settings[0].steps_items
+                      each item in val.settings[0].steps_items
+                        .col-lg-3.col-md-4.col-12.steps-single(class="text-" + val.settings[0].text_alignment)
+                          img(src=item.img_link)
+                          h6 !{item.item_title}
+                          p !{item.item_text}
+                  - break
+
+
+
+
+
+

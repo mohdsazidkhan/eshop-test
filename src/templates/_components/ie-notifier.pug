@@ -1,0 +1,30 @@
+mixin comp-ie-notifier(option)
+  // Notifier - START
+  .comp.comp-holder.ie-notifier(class=(option.toggle ? '' : 'd-none'))
+    .container
+      .row.justify-content-center
+        ul
+          li
+            include /src/images/icons/error-blacksmall.svg
+            //- img(src="images/icons/error-blacksmall.svg")
+            p You are using an
+              strong unsupported browser/version.
+              | Please upgrade to a supported browser.
+    script.
+      (function(){
+        'use strict'
+        document.addEventListener('DOMContentLoaded', function(){
+          let userBrowser = window.navigator.userAgent
+          console.log(userBrowser, 'browsercheck')
+          let msie = userBrowser.indexOf('MSIE')
+          let trident = userBrowser.indexOf('Trident/')
+          if (msie > 0) {
+            $('.ie-notifier').removeClass('d-none')
+          }
+
+          if (trident > 0) {
+            $('.ie-notifier').removeClass('d-none')
+          }
+        })
+      })(this, this.document)
+    // Notifier - End

@@ -1,0 +1,1348 @@
+{
+  "comp_promo_title": [{
+    "id": "comp-promo-title-1",
+    "settings": [{
+      "title_text": "All you need to know about The Straits Times",
+      "sub_text": "We've got Singapore covered, with senior writers reporting on news that matters to you - from education, transport and finance, to health, sports and food.",
+      "bg_color": "#182D56",
+      "text_color": "inverse"
+    }]
+  },{
+    "id": "comp-bt-nt-title",
+    "settings": [{
+      "title_text": "Choose your own device",
+      "sub_text": "We have the Samsung Galaxy Tab S6 Lite (LTE) in grey, and the Samsung Galaxy Tab A7 (Wi-Fi)  in black or gold colour.",
+      "bg_color": "#f5f5f5",
+      "text_color": "primary"
+    }]
+  }, {
+    "id": "comp-renewal-title-1",
+    "settings": [{
+      "title_text": "只需续签合约， 您即可获赠一台最新版本的三星 TabA7 Wifi 型号平板电脑",
+      "sub_text": "",
+      "bg_color": "#ffffff",
+      "text_color": "primary"
+    }]
+  }, {
+    "id": "comp-renewal-title-2",
+    "settings": [{
+      "title_text": "只限订阅数码内容，您可继续在现有平板电脑上畅读电子报。无需合约，更多自由。",
+      "sub_text": "",
+      "bg_color": "#ffffff",
+      "text_color": "primary"
+    }]
+  }],
+  "comp_promo_single_val_prop_center": [
+    {
+    "id": "bt-nt-val-1",
+    "settings": [
+      {
+      "orientation": "center",
+      "img_link": "images/placeholders/valp-1.png",
+      "html_content": "<h3>News at your fingertips</h3> <p>Read the news on the go, even when offline. The day’s news automatically downloads to your tablet over Wi-Fi. </p>",
+      "bg_color": "#2B2B2B",
+      "text_color": "inverse"
+        }
+      ]
+    },
+    {
+    "id": "bt-nt-val-2",
+    "settings": [{
+      "orientation": "center",
+      "img_link": "images/placeholders/valp-2.png",
+      "html_content": "<h3>Save & share easily</h3> <p>Conveniently store digital newspaper clippings in your phone gallery, or share them with your loved ones. </p>",
+      "bg_color": "#2B2B2B",
+      "text_color": "inverse"
+    }]
+    },
+    {
+      "id": "bt-nt-val-3",
+      "settings": [{
+        "orientation": "center",
+        "img_link": "images/placeholders/valp-3.png",
+        "html_content": "<h3>Expand your reading, expand you world</h3> <p>Read other titles to gain different perspectives with our lineup of magazines.</p>",
+        "bg_color": "#2B2B2B",
+        "text_color": "inverse"
+      }]
+    },
+    {
+      "id": "corp-plan-val-1",
+      "settings": [{
+        "orientation": "center",
+        "img_link": null,
+        "html_content": "<h3>Looking for customisation?</h3><p>Get in touch and we will find the best solution for your team.</p>",
+        "bg_color": null,
+        "text_color": " ",
+        "contact_button": "Contact us",
+        "chat_button": "Chat with us"
+      }]
+    }
+  ],
+  "comp_promo_single_val_prop": [
+    {
+    "id": "comp-promo-single-val-prop-1",
+    "settings": [{
+      "orientation": "right",
+      "img_link": "images/placeholders/vas-image1.png",
+      "html_content": "<h3>55\" Philips OLED 8 series Razor Slim 4K UHD  OLED Android TV with Ambilight 3-sided</h3> <p><strong>Technical Specifications</strong></p><ul><li>Model:55OLED803</li><li>Size Width: 1227.8mm</li><li>Height: 705.6mm</li><li>Depth: 49.3mm</li><li>Product Weight: 20.8kg</li><li>Panel resolution: 3840 x 2160</li><li>Aspect Ratio: 16:9</li></ul>",
+      "bg_color": "#1c1c45",
+      "text_color": "inverse"
+    }]
+  },
+  {
+    "id": "comp-promo-single-val-prop-2",
+    "settings": [{
+      "orientation": "left",
+      "img_link": "images/placeholders/vas-image1.png",
+      "html_content": "<h3>55\" Philips OLED 8 series Razor Slim 4K UHD  OLED Android TV with Ambilight 3-sided</h3> <p><strong>Technical Specifications</strong></p><ul><li>Model:55OLED803</li><li>Size Width: 1227.8mm</li><li>Height: 705.6mm</li><li>Depth: 49.3mm</li><li>Product Weight: 20.8kg</li><li>Panel resolution: 3840 x 2160</li><li>Aspect Ratio: 16:9</li></ul>",
+      "bg_color": "#c7d1ea",
+      "text_color": "primary"
+    }]
+  },
+  {
+    "id": "comp-promo-single-val-prop-3",
+    "settings": [{
+      "orientation": "left",
+      "img_link": "images/placeholders/vas-image1.png",
+      "html_content": "<h2>Subscribe from $24.90 a month</h2> <p>The Straits Times News Tablet App is paired with the Samsung Galaxy Tab A (10.1)” WiFi. </p>",
+      "bg_color": "#c7d1ea",
+      "text_color": "primary"
+    }]
+  },
+  {
+    "id": "btnt-print-cta",
+    "settings": [{
+      "orientation": "left",
+      "img_link": "images/placeholders/bt-print.jpg",
+      "html_content": "<h1>Still prefer the touch of paper?</h1> <p>Get $5 off when you bundle The Business Times Print or any other Business Times package with your News Tablet subscription. </p><a href='#' class='cta-button dark inverse'>Contact Us</a>",
+      "bg_color": "#f5f5f5",
+      "text_color": "primary"
+    }]
+  },
+  {
+    "id": "btnt-footer-cta",
+    "settings": [{
+      "orientation": "right",
+      "img_link": "images/placeholders/cta-img.png",
+      "html_content": "<h1>The business tool you never knew you needed</h1> <p>Get updated with the latest business news and insights with rich content on the go </p><a href='#' class='cta-button primary'>Get The BT News Tablet</a>",
+      "bg_color": "#f5f5f5",
+      "bg_imgUrl": "images/placeholders/cta-bg-img.jpg",
+      "text_color": "inverse"
+    }]
+  },
+  {
+    "id": "comp-renewal-single-val-prop-1",
+    "settings": [
+      {
+      "orientation": "left",
+      "img_link": "images/placeholders/nt-new.png",
+      "html_content": "<ul><li>价值：$448</li><li>屏幕尺寸：10.4寸</li><li>重量：476克</li><li>处理器：八核处理器 （2GHz，1.8GHz）</li><li>内存：64GB，支持存储扩展至1TB内存卡</li><li>摄像头像素：8.0MP</li><li>电池容量：7040毫安</li><li>1年标准三星保修</li><li>30个月平板电脑设备保险计划^</li></ul><p class='small-txt'>^作为订阅的一部分，免费为您提供。欲查询详情请参照 “常见问题”。</p>",
+      "bg_color": "#1C1C45",
+      "text_color": "inverse"
+      }
+    ]
+  },
+  {
+    "id": "comp-new-renewal-single-val-sample",
+    "settings": [
+      {
+      "orientation": "left",
+      "img_link": "images/placeholders/carousel-1.png",
+      "html_content": "<h1 class='semi'>Looking for other subscription plans?</h1><p>Unlock access to every Premium story with our The Straits Times subscription plans from as low as $9.90/month</p><a class='cta-button st' href=''>View more ST plans</a>",
+      "bg_color": "#182D56",
+      "text_color": "inverse"
+      }
+    ]
+  }
+],
+  "comp_promo_hero_panel": [
+    {
+    "id": "comp-promo-hero-panel-1",
+    "settings": [
+      {
+      "orientation": "right",
+      "bg_img": "images/placeholders/hero-left-bg-img.jpg",
+      "bg_mob_img": "images/placeholders/hero-left-bg-img.jpg",
+      "hero_img": "images/placeholders/hero-left-hero-img.png",
+      "title_text": "Enjoy unlimited access to all coverage we offer on any device",
+      "html_content": "<p>Bringing you in-depth analyses, impactful commentaries and breaking stories</p><p>Plans starting from $19.90/month</p>",
+      "bg_color": "#182D56",
+      "text_color": "inverse"
+        }
+      ]
+    },
+    {
+    "id": "comp-renewal-hero-panel-1",
+    "settings": [{
+      "orientation": "right",
+      "bg_img": "images/placeholders/hero-banner.jpg",
+      "bg_mob_img": "images/placeholders/mob-hero-banner.jpg",
+      "hero_img": "",
+      "title_text": "续约您的平板电子报订阅配套",
+      "html_content": "<p>平板读报让您的阅读体验升级</p><p>续约配套每月$19.90起</p>",
+      "bg_color": "#182D56",
+      "text_color": "inverse"
+    }]
+    },
+    {
+      "id": "comp-promo-hero-panel-2",
+      "settings": [{
+      "orientation": "left",
+      "bg_img": "images/placeholders/bh-right-hero-bg-img.jpg",
+      "bg_mob_img": "images/placeholders/bh-right-hero-bg-img.jpg",
+      "hero_img": "images/placeholders/bh-right-hero-img.png",
+      "title_text": "Berita Harian Promosi Masa Terhad Hari Raya",
+      "html_content": "<p>Berita Harian menyediakan 3 keperluan dapur untuk membantu dengan persiapan Hari Raya anda!</p>",
+      "bg_color": "#182D56",
+      "text_color": "inverse"
+    }]
+    },
+    {
+      "id": "comp-promo-hero-panel-3",
+      "settings": [{
+        "orientation": "center",
+        "bg_img": "images/placeholders/ge-bg-img.jpg",
+        "bg_mob_img": "images/placeholders/ge-bg-img.jpg",
+        "hero_img": "",
+        "title_text": "Get full coverage and in-depth stories for GE2020",
+        "html_content": "<p>Enjoy 3 months of subscription with the publication of your choice at $0.99/month</p>",
+        "bg_color": "#182D56",
+        "text_color": "inverse"
+      }]
+    },
+  {
+    "id": "comp-promo-hero-panel-4",
+    "settings": [{
+      "orientation": "right",
+      "bg_img": "images/placeholders/corp-plans/bt-corp-banner-desktop-v2.jpg",
+      "bg_mob_img": "images/placeholders/corp-plans/bt-corp-banner-mobile-v2.jpg",
+      "hero_img": " ",
+      "title_text": "<h1>We are now offering<br/><span class='header-underline'>group rates</span></h1>",
+      "title_subtitle": "Let us know how we can help.",
+      "html_content": "<p>Read Singapore's only financial daily to get an authoritative take on local, regional and international business markets.</p>",
+      "bg_color": "#182D56",
+      "text_color": "",
+      "cta_text": "Learn more"
+    }]
+  },
+  {
+    "id": "comp-promo-staff-hero-panel-1",
+    "settings": [
+      {
+        "orientation": "left",
+        "bg_img": "images/placeholders/stuff-flow-bg-img.png",
+        "bg_mob_img": "images/placeholders/stuff-flow-bg-img.png",
+        "hero_img": "images/common/all-publication-hero.png",
+        "title_text": "Enjoy 4 free digital news access for being part of  SPH Media family",
+        "title_subtitle": "  ",
+        "html_content": "<p>All SPH Media staff enjoy free digital access to The Straits Times, The Business Times, Lianhe Zaobao and Berita Harian</p>",
+        "bg_color": "#fffff",
+        "text_color": " ",
+        "cta_text": "Get Digital Only"
+      }
+    ]
+  },
+  {
+    "id": "comp-promo-m1-hero-panel-1",
+    "settings": [
+      {
+        "orientation": "left",
+        "bg_img": "",
+        "bg_mob_img": "",
+        "hero_img": "images/placeholders/m1-hero-pic.png",
+        "title_text": "Enjoy <span style='color:#ECA146;'>1-year</span> access to premium content of digital news and magazine",
+        "title_subtitle": "  ",
+        "html_content": "<p>Choose 1 each from the selected news and lifestyle publications</p>",
+        "bg_color": "#f5f5f5",
+        "text_color": " ",
+        "cta_text": "GET MY 1-YEAR ACCESS NOW"
+      }
+    ]
+  }
+],
+  "comp_promo_hero_logo_panel" : [
+    {
+      "id" : "comp-promo-hero-logo-panel-1",
+      "logo_url": "images/logos/bt-logo-w-tagline.svg",
+      "pub_color": "#2b2b2b;",
+      "tag_line": "Your trusted partner for business insights"
+    },
+    {
+      "id" : "comp-promo-hero-logo-bt",
+      "alignment": "left",
+      "logo_url": "images/logos/bt-logo.svg",
+      "pub_color": " ",
+      "tag_line": " "
+    }
+  ],
+  "comp_promo_hero_panel_b": [
+    {
+    "id": "comp-promo-hero-panel-b",
+    "settings": [{
+      "orientation": "center",
+      "bg_img": "",
+      "bg_mob_img": "",
+      "hero_img": "images/placeholders/hero-banner-b.png",
+      "title_text": "Change the way you read news",
+      "html_content": "<p>Experience the BT e-paper at its most intuitive. Flip through an electronic copy of the BT print edition in the SPHtab e-paper app.</p><h6>from $29.90/month </h6><i>with 30-month contract</i>",
+      "bg_color": "#ffffff",
+      "text_color": "primary"
+    }]
+  }],
+  "comp_promo_video_panel": [{
+    "id": "comp-promo-video-panel-1",
+    "settings": [{
+      "video_embed_link": "https://www.youtube-nocookie.com/embed/bIX9HuzC0yA",
+      "thb_img": "images/placeholders/hello.jpg",
+      "video_title": "Our journalists tread borders to provide in depth analyses of events happening in Singapore and beyond.",
+      "bg_color": "#182D56",
+      "blend_bg_color": "#000000",
+      "text_color": "inverse"
+    }]
+  }],
+  "comp_promo_carousel_default": [{
+    "id": "comp-promo-carousel-default-1",
+    "settings": [{
+      "title_text": "The All Digital Package",
+      "bg_color": "#c7d1ea",
+      "text_color": "primary",
+      "carousel_items": [{
+        "img_link": "images/placeholders/carousel-1.png",
+        "html_content": "<h3>Unlock access to every <strong>Premium story</strong>, every feature and all the insights online with The Straits Times All-Digital Package.</h3>"
+      }, {
+        "img_link": "images/placeholders/carousel-2.png",
+        "html_content": "<h3>Easily access The Straits Times News Tablet app on the Samsung Galaxy Tab A (10.1\") Wi-Fi® with up to 1-year Samsung Standard Warranty</h3>"
+      }, {
+        "img_link": "images/placeholders/carousel-3.png",
+        "html_content": "<h2>I'm baby shoreditch</h2> <h3>waistcoat blog, wayfarers flexitarian unicorn palo santo taxidermy portland.</h3><p>Fanny pack cardigan mixtape 3 wolf moon cred dreamcatcher XOXO blue bottle hella ethical chicharrones jianbing.</p> "
+      }]
+    }]
+  }, {
+    "id": "comp-promo-carousel-stnt",
+    "settings": [{
+      "title_text": "A new way of meeting your reading needs on demand",
+      "bg_color": "#c7d1ea",
+      "text_color": "primary",
+      "carousel_items": [{
+        "img_link": "images/placeholders/STNT-Banner1.png",
+        "html_content": "<h3>A more seamless way to read digitally.</h3><p>Enjoy a seamless digital reading experience on the Samsung Galaxy Tab A7 (Wi-Fi) with the pre-installed SPH Tab app. The app auto-launches with a one-time log in.</p>"
+      }, {
+        "img_link": "images/placeholders/STNT-Banner2.png",
+        "html_content": "<h3>Get your daily news anywhere. No hassle.</h3><p>With automatic downloaded news onto your tablet daily in a Wi-Fi environment, you can access news on your tablet on the go and anywhere, even in an offline space.</p>"
+      }, {
+        "img_link": "images/placeholders/STNT-Banner3.png",
+        "html_content": "<h3>Digital news-clipping and social media sharing features.</h3><p>Save and organise your articles conveniently in your gallery, or share interesting articles and attractive deals with your loved ones.</p>"
+      }, {
+        "img_link": "images/placeholders/STNT-Christmas-Promo-2020-eShop-package-specs-banner0-01.png",
+        "html_content": "<h3>News Tablet Device Protection Plan</h3><p> Your News Tablet comes with a complimentary News Tablet Device Protection Plan that is valid for 30 months. With the News Tablet Device Protection Plan, your tablet is protected against accidental damages and loss throughout the duration of your news subscription.</p><p><span>This plan is underwritten by Great Eastern General Insurance Limited.</span><br><span>Your tablet is covered up to a maximum of two repairs or one replacement during the period of insurance. Find out more in the FAQ section below.</span></p>"
+      }]
+    }]
+  }],
+  "comp_promo_carousel_image": [{
+    "id": "comp-promo-carousel-image-1",
+    "settings": [{
+      "bg_color": "#182D56",
+      "html_content": "<h2>4K OLED Andriod TV now at $2,399 (U.P. $4,999)</h2> <h3>Watch your favourite shows in 4K Ultra HD TV and Pixel Plus Ultra HD picture quality.</h3><ul><li>4K Ultra HD, unlike any resolution you’ve ever seen before</li><li>Three HDMI inputs and Easylink for integrated connectivity</li><li>Slim, refined stands communicate lightness</li><li>Discover Ultra HD Picture Quality with Pixel Plus Ultra HD</li>",
+      "carousel_items": [{
+        "img_link": "images/placeholders/carousel-1.png"
+      }, {
+        "img_link": "images/placeholders/carousel-2.png"
+      }, {
+        "img_link": "images/placeholders/carousel-3.png"
+      }, {
+        "img_link": "images/placeholders/carousel-2.png"
+      }]
+    }]
+  }],
+  "comp_promo_carousel_waterwheel": [{
+    "id": "comp-promo-carousel-waterwheel-1",
+    "settings": [{
+      "bg_img": "images/placeholders/waterwheel-bg.jpg",
+      "bg_color": "#4B525E",
+      "text_title": "Exclusive gifts for subscribers",
+      "text_color": "inverse",
+      "carousel_items": [{
+        "img_link": "images/placeholders/gift-1.png",
+        "item_title": "Phillips Viva Collection Blender",
+        "item_subtext": "Equipped with the latest ProBlend 5 blade to create perfect end results."
+      }, {
+        "img_link": "images/placeholders/gift-2.png",
+        "item_title": "Some Pot 1",
+        "item_subtext": ""
+      }, {
+        "img_link": "images/placeholders/gift-3.png",
+        "item_title": "Some Plates Set 1",
+        "item_subtext": ""
+      }, {
+        "img_link": "images/placeholders/gift-2.png",
+        "item_title": "Some Pot 2",
+        "item_subtext": ""
+      }, {
+        "img_link": "images/placeholders/gift-3.png",
+        "item_title": "Some Plates Set 2",
+        "item_subtext": ""
+      }, {
+        "img_link": "images/placeholders/gift-2.png",
+        "item_title": "LAST Plates Set 3",
+        "item_subtext": ""
+      }]
+    }]
+  }],
+  "comp_promo_steps": [{
+    "id": "comp-promo-steps-1",
+    "settings": [{
+      "bg_color": "#fff",
+      "text_color": "primary",
+      "text_title": "The same great content, repackaged",
+      "steps_items": [{
+        "img_link": "images/placeholders/step-1.png",
+        "item_text": "1. Subscribe to The Straits Times News Tablet"
+      }, {
+        "img_link": "images/placeholders/step-2.png",
+        "item_text": "2. Pick up your Tablet at our redemption counter"
+      }, {
+        "img_link": "images/placeholders/step-3.png",
+        "item_text": "3. Access The Straits Times on the News Tablet app"
+      }, {
+        "img_link": "images/placeholders/step-1.png",
+        "item_text": "4. Lorem ipsum blar uasfioo asnfiiodskn wijegio"
+      }, {
+        "img_link": "images/placeholders/step-2.png",
+        "item_text": "5. Lorem ipsum blar uasfioo asnfiiodskn wijegio"
+      }]
+    }]
+  }],
+  "comp_promo_val_prop_list": [
+    {
+    "id": "btnt-pkg-vp",
+    "settings": [{
+      "bg_color": "#333333",
+      "text_color": "inverse",
+      "text_title": "The little things that matter",
+      "sub_title": "All BT news tablet plans come with these features",
+      "steps_items": [{
+        "img_link": "images/placeholders/pkg-vp1.png",
+        "item_title": "Unlimited articles on bt.sg",
+        "item_text": "Read as many articles as you want on The Business Times website"
+      }, {
+        "img_link": "images/placeholders/pkg-vp2.png",
+        "item_title": "BT app access on 1 device",
+        "item_text": "Enjoy access on The Business Times App for the latest news updates"
+      }, {
+        "img_link": "images/placeholders/pkg-vp3.png",
+        "item_title": "2-week e-paper news archive",
+        "item_text": "Missed the news for a day or two? SPHTab stores previous issues for up to 14 days"
+      }, {
+        "img_link": "images/placeholders/pkg-vp4.png",
+        "item_title": "News Tablet Device Protection Plan",
+        "item_text": "We understand accidents happen, so we will cover damage to your device for the 1st year"
+      }]
+    }]
+  },
+  {
+    "id": "bt-plans-include",
+    "settings": [
+      {
+      "bg_color": null,
+      "text_color": null,
+      "text_title": "All plans include",
+      "sub_title": null,
+      "custom_class": "bt-plans-include",
+        "steps_items": [
+          {
+            "img_link": "images/icons/infinity-icon.svg",
+            "item_title": "Unlimited articles",
+            "item_text": "Read as many articles as you want on The Business Times website"
+          },
+          {
+            "img_link": "images/icons/newspaper-icon.svg",
+            "item_title": "Access to ST",
+            "item_text": "Choose your preferred plan based on the number of accesses you need"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id":"m-one-list",
+    "settings": [
+      {
+      "text_alignment": "center",
+      "bg_color": null,
+      "text_color": null,
+      "text_title": "Here’s what you’ll get",
+      "sub_title": null,
+      "custom_class": "mobile-one",
+        "steps_items": [
+          {
+            "img_link": "images/icons/m-one-unlock-icon.svg",
+            "item_title": "Unlock subscriber-only articles",
+            "item_text": ""
+          },
+          {
+            "img_link": "images/icons/m-one-mobile-icon.svg",
+            "item_title": "App access on 1 device",
+            "item_text": ""
+          },
+          {
+            "img_link": "images/icons/m-one-epaper-icon.svg",
+            "item_title": "2-week e-paper news archive",
+            "item_text": ""
+          }
+        ]
+      }
+    ]
+  }
+],
+  "comp_promo_accordian_hori": [
+    {
+    "id": "comp-promo-accordian-hori-1",
+    "lang": "en",
+    "settings": [
+      {
+      "bg_color": "#1c1c45",
+      "text_title": "Frequently Asked Questions",
+      "text_color": "inverse",
+      "ext_link": "#",
+      "accordian_items": [
+        {
+        "question": "Why will it take so long to receive my tablet?",
+        "html_content": "<p>We are experiencing a delay in tablet shipments due to the COVID-19 outbreak. Please accept our apologies for the inconvenience and our sincere thanks for your patience during this period. We are working hard to get your orders in as soon as we can.</p><p>Even before you receive your tablet, you will already be able to enjoy full access to The Straits Times website and app from the moment you purchase your tablet subscription. Please see Question 5 for more details.</p>"
+      }, {
+        "question": "When will my tablet be ready for redemption?",
+        "html_content": "We expect to receive new stocks of the tablet by the end of April. You will receive a redemption letter via email once your tablet is ready for collection. All details on the redemption process will be provided in the email."
+      }, {
+        "question": "When will I be charged for my subscription plan?",
+        "html_content": "<p>If you purchase our News Tablet subscription between 18 March 2020 and 29 April 2020, your subscription will start on 1 May 2020. </p><p>Your first payment will occur on the day you purchase your subscription, and will cover the first period of your subscription starting 1 May 2020. This is illustrated in the table below:. </p><div class='table-responsive'><table class='table'><tbody><tr><td><br></td><td><br></td><td><p><strong>Monthly recurring</strong></p></td><td><p><strong>Yearly recurring</strong></p></td></tr><tr><td rowspan='2'><p><strong>First payment</strong></p></td><td><p>When will I be charged?</p></td><td><p>Upon purchase of subscription</p></td><td><p>Upon purchase of subscription</p></td></tr><tr><td><p>How much will I be charged?</p></td><td><p>Subscription fees for the first month, i.e. 1 May 2020to 31 May 2020</p></td><td><p>Subscription fees for the first year, i.e. 1 May 2020to 30 Apr 2021</p></td></tr><tr><td rowspan='2'><p><strong>Second payment</strong></p></td><td><p>When will I be charged?</p></td><td><p>1 June 2020*</p></td><td><p>1 May 2021**</p></td></tr><tr><td><p>How much will I be charged?</p></td><td><p>Subscription fees for the second month, i.e. 1 June2020 to 30 June 2020</p></td><td><p>Subscription fees for the second year, i.e. 1 May 2021to 30 Apr 2022</p></td></tr></tbody></table></div>"
+      }, {
+        "question": "Can I read The Straits Times in the meantime?",
+        "html_content": "<p>Yes, you will be able to enjoy full access to The Straits Times website and app from the day of your subscription. This access will be complimentary until 1 May 2020. (refer to Question 4 for more details).</p><p>Simply log on to straitstimes.com or The Straits Times app with your account details to start reading.</p>"
+      }, {
+        "question": "Can I read The Straits Times in the meantime?",
+        "html_content": "<p>Yes, you will be able to enjoy full access to The Straits Times website and app from the day of your subscription. This access will be complimentary until 1 May 2020. (refer to Question 4 for more details).</p><p>Simply log on to straitstimes.com or The Straits Times app with your account details to start reading.</p>"
+      }, {
+        "question": "Can I read The Straits Times in the meantime?",
+        "html_content": "<p>Yes, you will be able to enjoy full access to The Straits Times website and app from the day of your subscription. This access will be complimentary until 1 May 2020. (refer to Question 4 for more details).</p><p>Simply log on to straitstimes.com or The Straits Times app with your account details to start reading.</p>"
+      }, {
+        "question": "Can I read The Straits Times in the meantime?",
+        "html_content": "<p>Yes, you will be able to enjoy full access to The Straits Times website and app from the day of your subscription. This access will be complimentary until 1 May 2020. (refer to Question 4 for more details).</p><p>Simply log on to straitstimes.com or The Straits Times app with your account details to start reading.</p>"
+      }]
+    }]
+  },
+  {
+    "id": "btnt-promo-faq",
+    "lang": "en",
+    "settings": [{
+      "bg_color": "#f5f5f5",
+      "text_title": "Frequently Asked Questions",
+      "text_color": "primary",
+      "ext_link": "#",
+      "accordian_items": [{
+        "question": "Why will it take so long to receive my tablet?",
+        "html_content": "<p>We are experiencing a delay in tablet shipments due to the COVID-19 outbreak. Please accept our apologies for the inconvenience and our sincere thanks for your patience during this period. We are working hard to get your orders in as soon as we can.</p><p>Even before you receive your tablet, you will already be able to enjoy full access to The Straits Times website and app from the moment you purchase your tablet subscription. Please see Question 5 for more details.</p>"
+      }, {
+        "question": "When will my tablet be ready for redemption?",
+        "html_content": "We expect to receive new stocks of the tablet by the end of April. You will receive a redemption letter via email once your tablet is ready for collection. All details on the redemption process will be provided in the email."
+      }, {
+        "question": "When will I be charged for my subscription plan?",
+        "html_content": "<p>If you purchase our News Tablet subscription between 18 March 2020 and 29 April 2020, your subscription will start on 1 May 2020. </p><p>Your first payment will occur on the day you purchase your subscription, and will cover the first period of your subscription starting 1 May 2020. This is illustrated in the table below:. </p><div class='table-responsive'><table class='table'><thead><tr><td><br></td><td><br></td><td><p><strong>Monthly recurring</strong></p></td><td><p><strong>Yearly recurring</strong></p></td></tr></thead><tbody><tr><th rowspan='2'><p><strong>First payment</strong></p></th><td><p>When will I be charged?</p></td><td><p>Upon purchase of subscription</p></td><td><p>Upon purchase of subscription</p></td></tr><tr><td><p>How much will I be charged?</p></td><td><p>Subscription fees for the first month, i.e. 1 May 2020to 31 May 2020</p></td><td><p>Subscription fees for the first year, i.e. 1 May 2020to 30 Apr 2021</p></td></tr><tr><th rowspan='2'><p><strong>Second payment</strong></p></th><td><p>When will I be charged?</p></td><td><p>1 June 2020*</p></td><td><p>1 May 2021**</p></td></tr><tr><td><p>How much will I be charged?</p></td><td><p>Subscription fees for the second month, i.e. 1 June2020 to 30 June 2020</p></td><td><p>Subscription fees for the second year, i.e. 1 May 2021to 30 Apr 2022</p></td></tr></tbody></table></div>"
+      }, {
+        "question": "Can I read The Straits Times in the meantime?",
+        "html_content": "<p>Yes, you will be able to enjoy full access to The Straits Times website and app from the day of your subscription. This access will be complimentary until 1 May 2020. (refer to Question 4 for more details).</p><p>Simply log on to straitstimes.com or The Straits Times app with your account details to start reading.</p>"
+      }, {
+        "question": "Can I read The Straits Times in the meantime?",
+        "html_content": "<p>Yes, you will be able to enjoy full access to The Straits Times website and app from the day of your subscription. This access will be complimentary until 1 May 2020. (refer to Question 4 for more details).</p><p>Simply log on to straitstimes.com or The Straits Times app with your account details to start reading.</p>"
+      }, {
+        "question": "Can I read The Straits Times in the meantime?",
+        "html_content": "<p>Yes, you will be able to enjoy full access to The Straits Times website and app from the day of your subscription. This access will be complimentary until 1 May 2020. (refer to Question 4 for more details).</p><p>Simply log on to straitstimes.com or The Straits Times app with your account details to start reading.</p>"
+      }, {
+        "question": "Can I read The Straits Times in the meantime?",
+        "html_content": "<p>Yes, you will be able to enjoy full access to The Straits Times website and app from the day of your subscription. This access will be complimentary until 1 May 2020. (refer to Question 4 for more details).</p><p>Simply log on to straitstimes.com or The Straits Times app with your account details to start reading.</p>"
+      }]
+    }]
+  },
+  {
+    "id": "comp-renewal-accordian-hori-1",
+    "lang": "cn",
+    "settings": [{
+      "bg_color": "#1c1c45",
+      "text_title": "常见问题解答",
+      "text_color": "inverse",
+      "ext_link": "#",
+      "accordian_items": [{
+        "question": "Why will it take so long to receive my tablet?",
+        "html_content": "<p>We are experiencing a delay in tablet shipments due to the COVID-19 outbreak. Please accept our apologies for the inconvenience and our sincere thanks for your patience during this period. We are working hard to get your orders in as soon as we can.</p><p>Even before you receive your tablet, you will already be able to enjoy full access to The Straits Times website and app from the moment you purchase your tablet subscription. Please see Question 5 for more details.</p>"
+      }, {
+        "question": "When will my tablet be ready for redemption?",
+        "html_content": "We expect to receive new stocks of the tablet by the end of April. You will receive a redemption letter via email once your tablet is ready for collection. All details on the redemption process will be provided in the email."
+      }, {
+        "question": "When will I be charged for my subscription plan?",
+        "html_content": "<p>If you purchase our News Tablet subscription between 18 March 2020 and 29 April 2020, your subscription will start on 1 May 2020. </p><p>Your first payment will occur on the day you purchase your subscription, and will cover the first period of your subscription starting 1 May 2020. This is illustrated in the table below:. </p><div class='table-responsive'><table class='table'><tbody><tr><td><br></td><td><br></td><td><p><strong>Monthly recurring</strong></p></td><td><p><strong>Yearly recurring</strong></p></td></tr><tr><th rowspan='2'><p><strong>First payment</strong></p></th><td><p>When will I be charged?</p></td><td><p>Upon purchase of subscription</p></td><td><p>Upon purchase of subscription</p></td></tr><tr><td><p>How much will I be charged?</p></td><td><p>Subscription fees for the first month, i.e. 1 May 2020to 31 May 2020</p></td><td><p>Subscription fees for the first year, i.e. 1 May 2020to 30 Apr 2021</p></td></tr><tr><th rowspan='2'><p><strong>Second payment</strong></p></th><td><p>When will I be charged?</p></td><td><p>1 June 2020*</p></td><td><p>1 May 2021**</p></td></tr><tr><td><p>How much will I be charged?</p></td><td><p>Subscription fees for the second month, i.e. 1 June2020 to 30 June 2020</p></td><td><p>Subscription fees for the second year, i.e. 1 May 2021to 30 Apr 2022</p></td></tr></tbody></table></div>"
+      }, {
+        "question": "Can I read The Straits Times in the meantime?",
+        "html_content": "<p>Yes, you will be able to enjoy full access to The Straits Times website and app from the day of your subscription. This access will be complimentary until 1 May 2020. (refer to Question 4 for more details).</p><p>Simply log on to straitstimes.com or The Straits Times app with your account details to start reading.</p>"
+      }, {
+        "question": "Can I read The Straits Times in the meantime?",
+        "html_content": "<p>Yes, you will be able to enjoy full access to The Straits Times website and app from the day of your subscription. This access will be complimentary until 1 May 2020. (refer to Question 4 for more details).</p><p>Simply log on to straitstimes.com or The Straits Times app with your account details to start reading.</p>"
+      }, {
+        "question": "Can I read The Straits Times in the meantime?",
+        "html_content": "<p>Yes, you will be able to enjoy full access to The Straits Times website and app from the day of your subscription. This access will be complimentary until 1 May 2020. (refer to Question 4 for more details).</p><p>Simply log on to straitstimes.com or The Straits Times app with your account details to start reading.</p>"
+      }, {
+        "question": "Can I read The Straits Times in the meantime?",
+        "html_content": "<p>Yes, you will be able to enjoy full access to The Straits Times website and app from the day of your subscription. This access will be complimentary until 1 May 2020. (refer to Question 4 for more details).</p><p>Simply log on to straitstimes.com or The Straits Times app with your account details to start reading.</p>"
+      }]
+    }]
+  },
+  {
+    "id": "corps-plans-faq",
+    "lang": "en",
+    "settings": [
+      {
+        "bg_color": "#ffffff",
+        "text_title": "Frequently Asked Questions",
+        "text_color": " ",
+        "ext_link": "#",
+        "custom_class": "bt",
+        "accordian_items": [
+          {
+            "question": "Does this package come with a print copy delivered to my office?",
+            "html_content": "<p>No, this is a digital subscription to The Business Times and it does not include the print newspaper.</p>"
+          },
+          {
+            "question": "Is a seat = a subscription?",
+            "html_content": "<p>Yes.</p>"
+          },
+          {
+            "question": "How do I know if I am eligible for these subscription plans?",
+            "html_content": "<p>All corporate subscribers with a registered commercial address are eligible to subscribe.</p><p>Individual subscribers with a residential address can browse our subscription packages at <a href='www.subscribe.sph.com.sg'>www.subscribe.sph.com.sg.</a></p>"
+          },
+          {
+            "question": "When will the billing for my subscription start?",
+            "html_content": "<p>Your subscription will officially start within 1 day from the date of your purchase.</p><p>Your first billing will begin 2-3 working days after your purchase and will cover the first period of your subscription (be it monthly recurring or yearly payments) from your official subscription start date.</p><p>See table below for a subscription purchased on 1 Jun 2020 as an illustration:</p><div class='table-responsive'><table class='table'><tbody><tr><td><br></td><td><br></td><td><p><strong>Monthly recurring</strong></p></td><td><p><strong>Yearly</strong></p></td></tr><tr><td rowspan='2'><p><strong>First payment</strong></p></td><td><p>When will I be charged?</p></td><td><p>2-3 working days after your date of purchase</p></td><td><p>2-3 working days after your date of purchase</p></td></tr><tr><td><p>How much will I be charged?</p></td><td><p> Subscription fee for the first month, i.e. 3 June, 2020 to 30 June, 2020</p></td><td><p> Subscription fee for the first year, i.e. 3 June, 2020 to 31 May, 2021</p></td></tr><tr><td rowspan='2'><p><strong>Second payment</strong></p></td><td><p>When will I be charged?</p></td><td><p>1 July, 2020</p></td><td rowspan='2'><p>Cycle repeats upon renewal of subscription</p></td></tr><tr><td><p>How much will I be charged?</p></td><td><p> Subscription fee for the second month, i.e. July 1, 2020 to July 31, 2020</p></td></tr></tbody></table></div>"
+          },
+          {
+            "question": "How many concurrent accesses do I get with each seat?",
+            "html_content": "<p>You get 1 access to the businesstimes.com.sg and 1 access to the BT app concurrently.</p>"
+          },
+          {
+            "question": "What happens if I want to terminate my subscription? ",
+            "html_content": "<p>You can call our Customer Service Hotline at 6388 3838 or email <a href='mailto:circs@sph.com.sg<'>circs@sph.com.sg</a> for assistance.</p>"
+          },
+          {
+            "question": "How do I make payment?",
+            "html_content": "<p>We accept various credit cards, cheques, bank transfers etc.</p>"
+          },
+          {
+            "question": "Can’t find what you’re looking for?",
+            "html_content": "<p>You can call our Customer Service Hotline at 6388 3838 or email <a href='mailto:circs@sph.com.sg'>circs@sph.com.sg</a> for assistance.</p><p>Our Customer Service Hotline operates from Mon – Fri, 8.30am to 6pm, excluding Public Holidays.</p>"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bt-skycraper-faq",
+    "lang": "en",
+    "settings": [
+      {
+        "bg_color": "#F5F5F5",
+        "text_title": "Frequently Asked Questions",
+        "text_color": " ",
+        "ext_link": "#",
+        "accordian_items": [
+          {
+            "question": "Does this package come with a print copy delivered to my home?",
+            "html_content": "<p>No, this is a digital subscription to The Business Times and it does not include the print newspaper.</p>"
+          },
+          {
+            "question": "How do I know if I’m eligible for this promotion?",
+            "html_content": "<p>Yes.</p>"
+          },
+          {
+            "question": "How do I know if I am eligible for these subscription plans?",
+            "html_content": "<p>All corporate subscribers with a registered commercial address are eligible to subscribe.</p><p>Individual subscribers with a residential address can browse our subscription packages at <a href='www.subscribe.sph.com.sg'>www.subscribe.sph.com.sg.</a></p>"
+          },
+          {
+            "question": "When will the billing for my subscription start?",
+            "html_content": "<p>Your subscription will officially start within 1 day from the date of your purchase.</p><p>Your first billing will begin 2-3 working days after your purchase and will cover the first period of your subscription (be it monthly recurring or yearly payments) from your official subscription start date.</p><p>See table below for a subscription purchased on 1 Jun 2020 as an illustration:</p><div class='table-responsive'><table class='table'><tbody><tr><td><br></td><td><br></td><td><p><strong>Monthly recurring</strong></p></td><td><p><strong>Yearly</strong></p></td></tr><tr><td rowspan='2'><p><strong>First payment</strong></p></td><td><p>When will I be charged?</p></td><td><p>2-3 working days after your date of purchase</p></td><td><p>2-3 working days after your date of purchase</p></td></tr><tr><td><p>How much will I be charged?</p></td><td><p> Subscription fee for the first month, i.e. 3 June, 2020 to 30 June, 2020</p></td><td><p> Subscription fee for the first year, i.e. 3 June, 2020 to 31 May, 2021</p></td></tr><tr><td rowspan='2'><p><strong>Second payment</strong></p></td><td><p>When will I be charged?</p></td><td><p>1 July, 2020</p></td><td rowspan='2'><p>Cycle repeats upon renewal of subscription</p></td></tr><tr><td><p>How much will I be charged?</p></td><td><p> Subscription fee for the second month, i.e. July 1, 2020 to July 31, 2020</p></td></tr></tbody></table></div>"
+          },
+          {
+            "question": "How many concurrent accesses do I get with each seat?",
+            "html_content": "<p>You get 1 access to the businesstimes.com.sg and 1 access to the BT app concurrently.</p>"
+          },
+          {
+            "question": "What happens if I want to terminate my subscription? ",
+            "html_content": "<p>You can call our Customer Service Hotline at 6388 3838 or email <a href='mailto:circs@sph.com.sg<'>circs@sph.com.sg</a> for assistance.</p>"
+          },
+          {
+            "question": "How do I make payment?",
+            "html_content": "<p>We accept various credit cards, cheques, bank transfers etc.</p>"
+          },
+          {
+            "question": "Can’t find what you’re looking for?",
+            "html_content": "<p>You can call our Customer Service Hotline at 6388 3838 or email <a href='mailto:circs@sph.com.sg'>circs@sph.com.sg</a> for assistance.</p><p>Our Customer Service Hotline operates from Mon – Fri, 8.30am to 6pm, excluding Public Holidays.</p>"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "st-skycraper-faq",
+    "lang": "en",
+    "settings": [
+      {
+        "bg_color": "#F5F5F5",
+        "text_title": "Frequently Asked Questions",
+        "text_color": " ",
+        "ext_link": "#",
+        "accordian_items": [
+          {
+            "question": "Do I have to pay two delivery fees if I subscribe to two newspapers?",
+            "html_content": "<p>If you are delivering more than one publication to the same residential address under the same subscriber account, you will only be charged one delivery fee for that residential address and account.</p>"
+          },
+          {
+            "question": "When will my subscription start after I have purchased it?",
+            "html_content": "<p>If you have purchased your subscription through our website, your subscription will start on or around 3 working days later.</p><p>If you have purchased your subscription through our Customer Service hotline, your subscription will typically start either on the 1st or the 15th day of the upcoming month.</p><p>For subscriptions with a digital component, you will receive an email with your mySPH user ID and password within 24 hours of purchasing the subscription. Once you have received these login details, you can start using your digital subscription on the publication’s website and/or mobile app.</p><p>For subscribers who were previously paying newspaper vendors for their subscriptions and are now converting to become SPH direct subscribers, your SPH subscription will start on the 1st of the upcoming month, subject to 3 working days’ notice.</p>"
+          },
+          {
+            "question": "What time will my newspapers be delivered to me?",
+            "html_content": "<p>If you subscribe to our print newspapers, they will be delivered to you by 7.30am daily unless unless exceptional circumstances occur, such as press breakdowns or late breaking news.</p><p>For subscriptions to evening newspapers (Lianhe Wanbao and Shin Min Daily News), subscribers will receive each day’s newspaper the following morning, by 7.30am.</p>"
+          },
+          {
+            "question": "Why should I subscribe if I can read most articles online for free?",
+            "html_content": "<p>Many of the articles on our news websites and apps, including breaking news stories on developments in Singapore and the world, are free for all to access.</p><p>However, some of our best content, produced by our experienced journalists in Singapore and in our foreign bureaus, are made available only to subscribers. To unlock these Premium articles, subscribe to any of our digital packages <a class='waffle-rich-text-link' href='https://subscribe.sph.com.sg/'><strong>here</strong></a>.</p>"
+          },
+          {
+            "question": "Will my subscription be automatically renewed?",
+            "html_content": "<p><b>Monthly/ Yearly Recurring Payment Arrangement:</b><br>If your subscription is on a monthly (or yearly) recurring payment arrangement, we will continue to charge you the prevailing subscription fee after your contract expires. The monthly (or annual) subscription fee will be subject to the prevailing prices of your subscription package.</p><p>If you wish to change your subscription package, please log in to your mySPH account by clicking on the Login button at the top right hand corner of this site. Once logged in, click into “Your subscriptions” to change your subscription package.</p><p>If you wish to cancel, please email us at&nbsp;<a href='mailto:circs@sph.com.sg'>circs@sph.com.sg</a>&nbsp;or call our Customer Service Hotline at 6388 3838. Kindly note that we require 30 days notice for all terminations.</p><p><b>Full Payment:</b><br>A renewal letter will be sent to you six weeks before your subscription ends. If you would like to renew your subscription, you can mail back the confirmation slip and payment details, or email us at <a href='mailto:circs@sph.com.sg' target='_blank' rel='noopener noreferrer'>circs@sph.com.sg</a>.</p>"
+          },
+          {
+            "question": "Can I subscribe with a corporate account and/or office address?",
+            "html_content": "<p><span style='font-weight: 400;'>To purchase a corporate subscription or arrange for newspaper delivery to an office address, please email us at </span><a href='mailto:circs@sph.com.sg'><span style='font-weight: 400;'>circs@sph.com.sg</span></a> or <span style='font-weight: 400;'>call our hotline at 6388 3838.<br></span></p>"
+          },
+          {
+            "question": "Can newspapers be delivered outside Singapore?",
+            "html_content": "<p>Yes, we are able to accept overseas print subscriptions but please note that there will be additional freight charges (depending on the location) and fuel surcharges (depending on the fuel rate at the time of subscription) for delivery of newspapers to an overseas address.</p><p>Please email us at <a class='waffle-rich-text-link' href='mailto:circs@sph.com.sg'>circs@sph.com.sg</a> or call our hotline at 6388 3838 for the rates depending on your location.</p>"
+          },
+          {
+            "question": "How can I pay for my subscription?",
+            "html_content": "<p>We accept payments via credit card or DBS GIRO for subscriptions made through our website.</p><p>For other methods of payment, please call our Customer Service Hotline at 6388 3838 or email us at <a class='waffle-rich-text-link' href='mailto:circs@sph.com.sg'>circs@sph.com.sg</a> for assistance.</p>"
+          },
+          {
+            "question": "What happens after my contract expires?",
+            "html_content": "<p>If your subscription is on a monthly (or yearly) recurring payment arrangement, we will continue to charge you the prevailing subscription fee after your contract expires. The monthly (or annual) subscription fee will be subject to the prevailing prices of your subscription package.</p><p>If you wish to change your subscription package, please log in to your mySPH account by clicking on the Login button at the top right hand corner of this site. Once logged in, click into “Your subscriptions” to change your subscription package.</p><p>If you wish to cancel, please email us at <a href='mailto:circs@sph.com.sg'>circs@sph.com.sg</a> or call our Customer Service Hotline at 6388 3838. Kindly note that we require 30 days notice for all terminations.</p>"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "new-renewal-faq",
+    "lang": "en",
+    "settings": [
+      {
+        "bg_color": "#F5F5F5",
+        "text_title": "Frequently Asked Questions",
+        "text_color": " ",
+        "ext_link": "#",
+        "accordian_items": [
+          {
+            "question": "Do I have to pay two delivery fees if I subscribe to two newspapers?",
+            "html_content": "<p>If you are delivering more than one publication to the same residential address under the same subscriber account, you will only be charged one delivery fee for that residential address and account.</p>"
+          },
+          {
+            "question": "When will my subscription start after I have purchased it?",
+            "html_content": "<p>If you have purchased your subscription through our website, your subscription will start on or around 3 working days later.</p><p>If you have purchased your subscription through our Customer Service hotline, your subscription will typically start either on the 1st or the 15th day of the upcoming month.</p><p>For subscriptions with a digital component, you will receive an email with your mySPH user ID and password within 24 hours of purchasing the subscription. Once you have received these login details, you can start using your digital subscription on the publication’s website and/or mobile app.</p><p>For subscribers who were previously paying newspaper vendors for their subscriptions and are now converting to become SPH direct subscribers, your SPH subscription will start on the 1st of the upcoming month, subject to 3 working days’ notice.</p>"
+          },
+          {
+            "question": "What time will my newspapers be delivered to me?",
+            "html_content": "<p>If you subscribe to our print newspapers, they will be delivered to you by 7.30am daily unless unless exceptional circumstances occur, such as press breakdowns or late breaking news.</p><p>For subscriptions to evening newspapers (Lianhe Wanbao and Shin Min Daily News), subscribers will receive each day’s newspaper the following morning, by 7.30am.</p>"
+          },
+          {
+            "question": "Why should I subscribe if I can read most articles online for free?",
+            "html_content": "<p>Many of the articles on our news websites and apps, including breaking news stories on developments in Singapore and the world, are free for all to access.</p><p>However, some of our best content, produced by our experienced journalists in Singapore and in our foreign bureaus, are made available only to subscribers. To unlock these Premium articles, subscribe to any of our digital packages <a class='waffle-rich-text-link' href='https://subscribe.sph.com.sg/'><strong>here</strong></a>.</p>"
+          },
+          {
+            "question": "Will my subscription be automatically renewed?",
+            "html_content": "<p><b>Monthly/ Yearly Recurring Payment Arrangement:</b><br>If your subscription is on a monthly (or yearly) recurring payment arrangement, we will continue to charge you the prevailing subscription fee after your contract expires. The monthly (or annual) subscription fee will be subject to the prevailing prices of your subscription package.</p><p>If you wish to change your subscription package, please log in to your mySPH account by clicking on the Login button at the top right hand corner of this site. Once logged in, click into “Your subscriptions” to change your subscription package.</p><p>If you wish to cancel, please email us at&nbsp;<a href='mailto:circs@sph.com.sg'>circs@sph.com.sg</a>&nbsp;or call our Customer Service Hotline at 6388 3838. Kindly note that we require 30 days notice for all terminations.</p><p><b>Full Payment:</b><br>A renewal letter will be sent to you six weeks before your subscription ends. If you would like to renew your subscription, you can mail back the confirmation slip and payment details, or email us at <a href='mailto:circs@sph.com.sg' target='_blank' rel='noopener noreferrer'>circs@sph.com.sg</a>.</p>"
+          },
+          {
+            "question": "Can I subscribe with a corporate account and/or office address?",
+            "html_content": "<p><span style='font-weight: 400;'>To purchase a corporate subscription or arrange for newspaper delivery to an office address, please email us at </span><a href='mailto:circs@sph.com.sg'><span style='font-weight: 400;'>circs@sph.com.sg</span></a> or <span style='font-weight: 400;'>call our hotline at 6388 3838.<br></span></p>"
+          },
+          {
+            "question": "Can newspapers be delivered outside Singapore?",
+            "html_content": "<p>Yes, we are able to accept overseas print subscriptions but please note that there will be additional freight charges (depending on the location) and fuel surcharges (depending on the fuel rate at the time of subscription) for delivery of newspapers to an overseas address.</p><p>Please email us at <a class='waffle-rich-text-link' href='mailto:circs@sph.com.sg'>circs@sph.com.sg</a> or call our hotline at 6388 3838 for the rates depending on your location.</p>"
+          },
+          {
+            "question": "How can I pay for my subscription?",
+            "html_content": "<p>We accept payments via credit card or DBS GIRO for subscriptions made through our website.</p><p>For other methods of payment, please call our Customer Service Hotline at 6388 3838 or email us at <a class='waffle-rich-text-link' href='mailto:circs@sph.com.sg'>circs@sph.com.sg</a> for assistance.</p>"
+          },
+          {
+            "question": "What happens after my contract expires?",
+            "html_content": "<p>If your subscription is on a monthly (or yearly) recurring payment arrangement, we will continue to charge you the prevailing subscription fee after your contract expires. The monthly (or annual) subscription fee will be subject to the prevailing prices of your subscription package.</p><p>If you wish to change your subscription package, please log in to your mySPH account by clicking on the Login button at the top right hand corner of this site. Once logged in, click into “Your subscriptions” to change your subscription package.</p><p>If you wish to cancel, please email us at <a href='mailto:circs@sph.com.sg'>circs@sph.com.sg</a> or call our Customer Service Hotline at 6388 3838. Kindly note that we require 30 days notice for all terminations.</p>"
+          }
+        ]
+      }
+    ]
+  }
+],
+  "comp_testimony": [{
+    "id": "bt-nt-testi",
+    "settings": [{
+      "bg_color": "#ffffff",
+      "testi_bgcolor": "bt",
+      "testi_txtcolor": "inverse",
+      "text_color": "primary",
+      "title_text": "What our subscribers are saying"
+    }],
+    "testi": [{
+      "testi_title": "Incredible reading Experience",
+      "testi_content": "We had an incredible experience working with Landify and were impressed they made such a big difference in only three weeks. Our team is so grateful for the wonderful improvements they made and their ability to get familiar with the concept so quickly. It acted as a catalyst to take our design to the next level and get more eyes on our product.",
+      "contributor": "Jane Cooper",
+      "contributor_title": "CEO, ABC Corporation",
+      "contributor_imgURL": "images/placeholders/testi-img.png"
+    },{
+      "testi_title": "Dependable, Responsive, Professional Partner",
+      "testi_content": "Fermin Apps has collaborated with Landify team for several projects such as Photo Sharing Apps and Custom Social Networking Apps. The experience has been pleasant, professional and exceeding our expectations. The team is always thinking beyond the current tasks & helps us formulate a vision and possibilities for future.",
+      "contributor": "Jane Cooper",
+      "contributor_title": "CEO, ABC Corporation",
+      "contributor_imgURL": "images/placeholders/testi-img.png"
+    }]
+  }],
+  "comp_product_table_comparison": [{
+    "id": "bt-nt-comparison",
+    "settings": [{
+      "bg_color": "#f5f5f5",
+      "text_color": "primary"
+    }],
+    "list_label": [{
+      "labelId": "finish",
+      "label": "Finish"
+    },{
+      "labelId": "display",
+      "label": "Main Display Size"
+    },{
+      "labelId": "cpu",
+      "label": "CPU Speed"
+    },{
+      "labelId": "memory",
+      "label": "Memory"
+    },{
+      "labelId": "cam",
+      "label": "Back Camera"
+    },{
+      "labelId": "batt",
+      "label": "Battery Capacity"
+    },{
+      "labelId": "weight",
+      "label": "Weight"
+    },{
+      "labelId": "spen",
+      "label": "S-Pen"
+    }],
+    "products": [{
+      "pdt_id": "pdt-001",
+      "pdt_title": "Samsung Galaxy Tab S6 Lite (LTE + Wi-Fi)",
+      "pdt_subtext": "Worth $698",
+      "pdt_imgUrl": "images/placeholders/product-img-2.png",
+      "finish": [{
+        "colorLbl": "Black",
+        "colorHex": "#1B1B1B"
+      }],
+      "display": "263.1mm (10.4″)",
+      "cpu": "2.3 GHz",
+      "memory": "128 GB *<i>*able to support up to 1TB of MicroSD</i>",
+      "cam": "8 Megapixel",
+      "batt": "7,040mAh<i>Up to 12 hours of internet usage time or 13 hours of video playback</i>",
+      "weight": "465 g",
+      "spen": "S Pen included",
+      "pdt_price": "$39.90 /month <i>with 30-month contract</i>",
+      "pdt_btn_lbl": "Get Tab S6 Lite"
+    },{
+      "pdt_id": "pdt-002",
+      "pdt_title": "Samsung Galaxy Tab A7 (Wi-Fi only)",
+      "pdt_subtext": "Worth $448",
+      "pdt_imgUrl": "images/placeholders/product-img-1.png",
+      "finish": [{
+        "colorLbl": "Gold",
+        "colorHex": "#BDA082"
+      },{
+        "colorLbl": "Grey",
+        "colorHex": "#75767C"
+      }],
+      "display": "263.1mm (10.4″)",
+      "cpu": "2 GHz, 1.8 GHz (Octa Core)",
+      "memory": "64 GB *<i>*able to support up to 1TB of MicroSD</i>",
+      "cam": "8 Megapixel",
+      "batt": "7,040mAh<i>Up to 12 hours of internet usage time or 13 hours of video playback</i>",
+      "weight": "476 g",
+      "spen": "Not avaliable",
+      "pdt_price": "$29.90 /month <i>with 30-month contract</i>",
+      "pdt_btn_lbl": "Get Tab A7"
+    }]
+  }],
+  "comp_corp_plan_benefits" : [
+    {
+      "id" : "comp-promo-plan-benefit-default-1",
+      "lang": "en",
+      "title": "Our content offerings",
+      "list": [
+        {
+          "id": 1,
+          "list_image_url": "./images/placeholders/corp-plans/going-global.jpg",
+          "list_title": "Going global",
+          "list_subtext": "Venturing into Asean and the world? We’re right there with you, bringing top takes on the region and emerging economies."
+        },
+        {
+          "id": 2,
+          "list_image_url": "./images/placeholders/corp-plans/more-views.jpg",
+          "list_title": "More views",
+          "list_subtext": "A wider range of commentary and insights from more in-house experts with decades of industry experience."
+        },
+        {
+          "id": 3,
+          "list_image_url": "./images/placeholders/corp-plans/multiplaform.jpg",
+          "list_title": "Multi-platform",
+          "list_subtext": "We’re deepening our capabilities in video and graphic storytelling, bringing you more quality content."
+        }
+      ]
+    }
+  ],
+  "comp_corp_plan_form": [
+    {
+      "id": "comp-corp-plan-form",
+      "custom_class": "bt"
+    }
+  ],
+  "comp_corp_plans": [
+    {
+      "id": "comp-promo-corp-plans-default-1",
+      "lang": "en",
+      "title": "Group plans",
+      "button": true,
+      "button_text": ["Get in touch", "Chat with Us Now"],
+      "includes": ["Individual account login", "Unlimited access to businesstimes.com.sg", "App access on 1 device", "2-week e-paper archive"],
+      "list": [
+        {
+          "id": 1,
+          "list_title": "Team",
+          "subtitle": "1 - 20 seats",
+          "description": ["Individual account login", "Unlimited access to businesstimes.com.sg", "App access on 1 device", "2-week e-paper archive"],
+          "price":"<h4>$9.90&nbsp;</h4><p class='ori'>/seat</p>",
+          "old_price":"<p class='ori strike-thru'>$32.90&nbsp;/seat</p>",
+          "highlight_class": null
+        },
+        {
+          "id": 2,
+          "list_title": "Business",
+          "subtitle": "21 - 199 seats",
+          "description": ["Individual account login", "Unlimited access to businesstimes.com.sg", "App access on 1 device", "2-week e-paper archive"],
+          "price": "<h4>$7.90&nbsp;</h4><p class='ori'>/seat</p>",
+          "old_price": null,
+          "highlight_class": "highlight"
+        },
+        {
+          "id": 3,
+          "list_title": "Enterprise",
+          "subtitle": "200 seats & above <br/>Wifi access to publications at 1 location",
+          "description": ["Individual account login", "Unlimited access to businesstimes.com.sg", "App access on 1 device", "2-week e-paper archive"],
+          "price": "<h4>$4.90&nbsp;</h4><p class='ori'>/seat</p>",
+          "old_price": null,
+          "highlight_class": null
+        }
+      ]
+    }
+  ],
+  "comp_promo_corp_plans_testimony": [
+    {
+      "id":"comp-promo-corp-plans-testimony",
+      "title" : "What Our Readers Say",
+      "quote_img_ul": "./images/placeholders/quoteimage.jpg",
+      "quote_html_content": "<h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio elementum placerat magna nam purus.</h3><p>David Lee<br/>Head of Research, ABC PTE LTD</p>",
+      "testimony_list": [
+        {
+          "custom_class": " ",
+          "testimony_html_content": "<h3>PIC 1 With their strong network of business contacts and deep experience, <strong>The Business Times’</strong> journalists help readers go deep into issues and happenings. Their commentaries are insightful and they help shape conversations, and sometimes even nudge policy changes.</h3><p><strong>David Lee</strong><br>Head of Research, ABC PTE LTD</p>",
+          "img_url": "./images/placeholders/testimony-placeholder.jpg",
+          "name_html_content": "<p><strong>David Lee</strong><br>Head of Research, <br/>ABC PTE LTD</p>"
+        },
+        {
+          "custom_class": "reverse",
+          "testimony_html_content": "<h3>PIC 2 With their strong network of business contacts and deep experience, <strong>The Business Times’</strong> journalists help readers go deep into issues and happenings. Their commentaries are insightful and they help shape conversations, and sometimes even nudge policy changes.</h3><p><strong>David Lee</strong><br>Head of Research, ABC PTE LTD</p>",
+          "img_url": "./images/placeholders/testimony-placeholder.jpg",
+          "name_html_content": "<p><strong>Lee Dave</strong><br>Head of Research, <br/>ABC PTE LTD</p>"
+        },
+        {
+          "custom_class": " ",
+          "testimony_html_content": "<h3>PIC 3 With their strong network of business contacts and deep experience, <strong>The Business Times’</strong> journalists help readers go deep into issues and happenings. Their commentaries are insightful and they help shape conversations, and sometimes even nudge policy changes.</h3><p><strong>David Lee</strong><br>Head of Research, ABC PTE LTD</p>",
+          "img_url": "./images/placeholders/testimony-placeholder.jpg",
+          "name_html_content": "<p><strong>Davi Lee</strong><br>Head of Research, <br/>ABC PTE LTD</p>"
+        }
+      ]
+
+  }],
+  "comp_promo_publication_plans": [
+    {
+      "id": "comp-promo-bt-compare-plans",
+      "lang": "en",
+      "title": "Compare all plans",
+      "button": false,
+      "button_text": "Subscribe",
+      "includes": null,
+      "list": [
+        {
+          "id": 1,
+          "list_title": "The Business Times News Tablet Edition",
+          "plans_description": [
+            {
+              "title": "Cost",
+              "description": "Starts from $29.9/month"
+            },
+            {
+              "title": "Contract period",
+              "description": "Add on for $15/month"
+            },
+            {
+              "title": "Print paper",
+              "description": "32 months"
+            },
+            {
+              "title": "ePaper",
+              "description": "Included"
+            },
+            {
+              "title": "Web access",
+              "description": "Included"
+            },
+            {
+              "title": "App access device limit",
+              "description": "Tablet + 1 device"
+            },
+            {
+              "title": "News tablet access",
+              "description": "Included"
+            }
+          ],
+          "highlight_class": null
+        },
+        {
+          "id": 2,
+          "list_title": "Personal Edition Digital Only",
+          "plans_description": [
+            {
+              "title": "Cost",
+              "description": "Starts from $9.90/month"
+            },
+            {
+              "title": "Contract period",
+              "description": "No contract"
+            },
+            {
+              "title": "Print paper",
+              "description": "None"
+            },
+            {
+              "title": "ePaper",
+              "description": "Included"
+            },
+            {
+              "title": "Web access",
+              "description": "1 device"
+            },
+            {
+              "title": "App access device limit",
+              "description": "2 device"
+            },
+            {
+              "title": "News tablet access",
+              "description": "NA"
+            }
+          ],
+          "highlight_class": null
+        },
+        {
+          "id": 3,
+          "list_title": "Family Digital Only",
+          "plans_description": [
+            {
+              "title": "Cost",
+              "description": "Starts from $32.90/month"
+            },
+            {
+              "title": "Contract period",
+              "description": "No contract"
+            },
+            {
+              "title": "Print paper",
+              "description": "None"
+            },
+            {
+              "title": "ePaper",
+              "description": "Included"
+            },
+            {
+              "title": "Web access",
+              "description": "1 device"
+            },
+            {
+              "title": "App access device limit",
+              "description": "4 device"
+            },
+            {
+              "title": "News tablet access",
+              "description": "NA"
+            }
+          ],
+          "highlight_class": null
+        },
+        {
+          "id": 4,
+          "list_title": "Family Digital + Print",
+          "plans_description": [
+            {
+              "title": "Cost",
+              "description": "Starts from $32.90/month"
+            },
+            {
+              "title": "Contract period",
+              "description": "No contract"
+            },
+            {
+              "title": "Print paper",
+              "description": "Included"
+            },
+            {
+              "title": "ePaper",
+              "description": "Included"
+            },
+            {
+              "title": "Web access",
+              "description": "1 device"
+            },
+            {
+              "title": "App access device limit",
+              "description": "4 device"
+            },
+            {
+              "title": "News tablet access",
+              "description": "NA"
+            }
+          ],
+          "highlight_class": null
+        }
+      ]
+    },
+    {
+      "id": "st-plans",
+      "lang": "en",
+      "title": "Compare all plans",
+      "button": false,
+      "button_text": "Subscribe Now",
+      "includes": null,
+      "list": [
+        {
+          "id": 1,
+          "list_title": "News Tablet",
+          "plans_description": [
+            {
+              "title": "Cost",
+              "description": "Starts from $24.9/month"
+            },
+            {
+              "title": "Contract period",
+              "description": "30 months"
+            },
+            {
+              "title": "Print paper",
+              "description": "None"
+            },
+            {
+              "title": "e-paper",
+              "description": "Included"
+            },
+            {
+              "title": "Web access",
+              "description": "1 device"
+            },
+            {
+              "title": "App access device limit",
+              "description": "1 device"
+            },
+            {
+              "title": "News Tablet access",
+              "description": "Included"
+            }
+          ],
+          "highlight_class": null
+        },
+        {
+          "id": 2,
+          "list_title": "Basic Digital",
+          "plans_description": [
+            {
+              "title": "Cost",
+              "description": "$14.90/month"
+            },
+            {
+              "title": "Contract period",
+              "description": "No contract"
+            },
+            {
+              "title": "Print paper",
+              "description": "None"
+            },
+            {
+              "title": "e-paper",
+              "description": "None"
+            },
+            {
+              "title": "Web access",
+              "description": "1 device"
+            },
+            {
+              "title": "App access device limit",
+              "description": "2 device"
+            },
+            {
+              "title": "News Tablet access",
+              "description": "NA"
+            }
+          ],
+          "highlight_class": null
+        },
+        {
+          "id": 3,
+          "list_title": "All Digital",
+          "plans_description": [
+            {
+              "title": "Cost",
+              "description": "$29.90/month"
+            },
+            {
+              "title": "Contract period",
+              "description": "No contract"
+            },
+            {
+              "title": "Print paper",
+              "description": "None"
+            },
+            {
+              "title": "e-paper",
+              "description": "Included"
+            },
+            {
+              "title": "Web access",
+              "description": "1 device"
+            },
+            {
+              "title": "App access device limit",
+              "description": "4 device"
+            },
+            {
+              "title": "News Tablet access",
+              "description": "NA"
+            }
+          ],
+          "highlight_class": null
+        },
+        {
+          "id": 4,
+          "list_title": "All Digital + Print",
+          "plans_description": [
+            {
+              "title": "Cost",
+              "description": "S$29.90/month"
+            },
+            {
+              "title": "Contract period",
+              "description": "No contract"
+            },
+            {
+              "title": "Print paper",
+              "description": "Included"
+            },
+            {
+              "title": "e-paper",
+              "description": "Included"
+            },
+            {
+              "title": "Web access",
+              "description": "1 device"
+            },
+            {
+              "title": "App access device limit",
+              "description": "4 device"
+            },
+            {
+              "title": "News Tablet access",
+              "description": "NA"
+            }
+          ],
+          "highlight_class": null
+        }
+      ]
+    }
+  ],
+  "comp_squeeze_page" : [
+    {
+      "id" : "comp-promo-bt-squeeze-page",
+      "hero_image": "./images/placeholders/squeeze-page/bt-squeeze-page-hero.svg",
+      "headline" : "Your trusted partner<br/>for business insights.",
+      "tagline" : "Know business trends, and access analyses and opinions from the most reputed experts in their fields. <strong>Unlock all content from The Business Times.</strong>",
+      "annual" : {
+        "usual": "118.80",
+        "discount": "59.40",
+        "description" : "Enjoy 50% discount on your first year of subscription. S$118.80/year applies thereafter.",
+        "discount_percentage": "50",
+        "check": true
+      },
+      "monthly" : {
+        "usual": "9.90",
+        "check": false
+      },
+      "cta_copy": "SUBSCRIBE NOW",
+      "cta_url": ""
+    },
+    {
+      "id" : "comp-promo-bt-squeeze-page-v2",
+      "hero_image": "./images/placeholders/squeeze-page/bt-squeeze-page-hero.svg",
+      "headline" : "Your trusted partner<br/>for business insights.",
+      "tagline" : "Know business trends, and access analyses and opinions from the most reputed experts in their fields. <br/>Unlock all content from The Business Times.",
+      "annual" : {
+        "usual": "9.90",
+        "description" : "Monthly recurring. No locked-in contract.",
+        "check": true
+      },
+      "monthly" : {
+        "usual": null,
+        "description" : null,
+        "check": false
+      },
+      "cta_copy": "SUBSCRIBE NOW",
+      "cta_url": ""
+    },
+    {
+      "id" : "comp-promo-bt-squeeze-page-aniversary",
+      "hero_image": "./images/placeholders/squeeze-page/bt-squeeze-page-hero.svg",
+      "headline" : "Your trusted partner<br/>for business insights.",
+      "tagline" : "Know business trends, and access analyses and opinions from the most reputed experts in their fields. <br/>Unlock all content from The Business Times.",
+      "annual" : {
+        "usual": "118.80",
+        "discount": "59.40",
+        "description" : "Enjoy 50% discount on your first year of subscription. <br/>S$118.80/year applies thereafter.",
+        "discount_percentage": 50,
+        "check": true
+      },
+      "monthly" : {
+        "usual": null,
+        "discount": null,
+        "description" : null,
+        "discount_percentage": null,
+        "check": false
+      },
+      "cta_copy": "SUBSCRIBE NOW",
+      "cta_url": ""
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+// SPH Color system
+$primary-blue: #005daa;
+$primary-light-blue: #c7d1ea;
+$primary-dark-blue: #1c1c45;
+$primary-grey: #333333;
+$off-white: #f5f5f5;
+$light-grey: #848484;
+$middle-grey: #555555;
+$placeholder-color: #bdbdbd;
+// label Color
+$alert: #a50034;
+$warning: #ef4123;
+$error: #ffc3c3;
+$success: #0ac27b;
+$success-dark: #117e54;
+$success-alternative: #d4f3e7;
+$contract-reminder: #a7dff6;
+$contract-status: #5594ad;
+$cos: #1993f7;
+$help: #0a9fc2;
+$transparent-border: outside solid 5px transparent;
+$promo: #f2994a;
+$promo-border: solid 5px #f2994a;
+$discount: #f36b3a;
+$student: #fbdb32;
+// Text Color
+$body-text-color: $primary-grey;
+$body-text-color-light: #808080;
+$border-gray-color: #d8d8d8;
+$footer-background-color: $primary-grey;
+$link-color: #0088f7;
+// Background Color
+$background-blue-gradient: linear-gradient(to top, #3023ae -120%, #53a0fd);
+$background-blue-green-light-gradient: linear-gradient(
+  100deg,
+  rgba(48, 35, 174, 0.15),
+  rgba(83, 160, 253, 0.15) 49%,
+  rgba(156, 255, 135, 0.15) 102%
+);
+$background-blue-green-gradient: linear-gradient(
+  19deg,
+  rgba(48, 35, 174, 1),
+  rgba(83, 160, 253, 1) 49%,
+  rgba(156, 255, 135, 1) 102%
+);
+$background-greyfade: linear-gradient(
+  to left,
+  rgba(0, 0, 0, 0.9) 0%,
+  rgba(0, 0, 0, 0) 86%
+);
+$background-greyfade-rev: linear-gradient(
+  to right,
+  rgba(0, 0, 0, 0.9) 0%,
+  rgba(0, 0, 0, 0) 86%
+);
+$background-greyfade-top: linear-gradient(
+  to top,
+  rgba(0, 0, 0, 0.9) 0%,
+  rgba(0, 0, 0, 0) 36%
+);
+$background-lightgreyfade-top: linear-gradient(
+  to top,
+  rgba(0, 0, 0, 0.6) 0%,
+  rgba(0, 0, 0, 0) 36%
+);
+$background-lightgreyfade-top-mob: linear-gradient(
+  to top,
+  rgba(0, 0, 0, 0.7) 0%,
+  rgba(0, 0, 0, 0) 50%
+);
+$color-overlay: linear-gradient(
+  180deg,
+  rgba(196, 196, 196, 0) -1.71%,
+  #333333 63.45%
+);
+$color-overlay-white: linear-gradient(
+  180deg,
+  rgba(255, 255, 255, 0) -1.71%,
+  #fff 63.45%
+);
+$background-quick-link: linear-gradient(
+  312.11deg,
+  #ffffff 0.93%,
+  #dfe1e7 98.22%
+);
+$background-label: linear-gradient(180deg, #f8f9fa 100%, rgba(#f8f9fa, 0) 0%);
+$background-label-dsiabled: linear-gradient(
+  180deg,
+  rgba(#e9ecef, 0) 50%,
+  #e9ecef 50%
+);
+$background-gray-light: #f7f7f7; //Default Grayscale
+$white: #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black: #333 !default;
+//SPH Skining Colors
+$st: #182d56;
+$st-secondary: #8a94a8;
+$zb: #a40034;
+$zb-secondary: #a56278;
+$bt: #00415b;
+$bt-secondary: #fa9b22;
+$bh: #00509f;
+$bh-secondary: #00509f;
+$tm: #b0073d;
+$tm-secondary: #b0073d;
+$wb: #0198dd;
+$wb-secondary: #0198dd;
+$sm: #fd133a;
+$sm-secondary: #fd133a;
+$tabla: #c4c4c4;
+$tabla-secondary: #c4c4c4;
+// SPH Measurement system
+$base-st-family: "Curator Head ST Regular", "Helvetica Neue", Helvetica, Arial,
+  sans-serif;
+$st-header-family: "Selane ST Forty", "Times New Roman", Times, serif;
+// $base-font-size: 14px;
+$base-bt-family: "Poppins", sans-serif;
+$base-font-family: "Barlow", "Roboto", "Helvetica", "Arial", sans-serif;
+$header-font-family: "Crimson Text", serif;
+$base-cn-family: "Noto Sans SC";
+$header-cn-family: "Noto Serif SC";
+$card-border-radius: 1.6rem;
+$button-border-radius: 8px;
+$card-border-radius: 4px;
+$padding-xs: 4px;
+$padding-sm: 8px;
+$padding-md: 16px;
+$padding-lg: 24px;
+$padding-form: 4px 14px;
+$spacer-header: 42px;
+$section-header-padding: ($spacer-header * 2) ($spacer-header * 2) 0;
+$mob-spacer-header: 10px;
+$mob-section-header-padding: ($mob-spacer-header * 6) ($mob-spacer-header * 2) 0;
+$listing-min-height: 430px;
+$container-limit: 1440px !important;
+// Shadows
+$card-shadow: -5px -5px 9px #ffffff, 5px 5px 9px #c5cde6;
+$card-drop-shadow: 0 0 12px rgba(0, 0, 0, 0.25);
+$icon-drop-shadow: -3px 2px 3px rgba(0, 0, 0, 0.25);
+$prompt-drop-shadow: 0 -5px 25px rgba(0, 0, 0, 0.3);
+$menu-drop-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+$footer-drop-shadow: 0 -5px 15px rgba(0, 0, 0, 0.25);
+$toggle-drop-shadow: 0 -5px 8px rgba(0, 0, 0, 0.15);
+$card-plan-shadow: -5px -5px 9px #ffffff, 5px 5px 9px #c5cde6;
+$plain-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
+$card-plan-shadow: -5px -5px 9px rgba(255, 255, 255, 0), 5px 5px 9px #c5cde6;
+$button-shadow-sm: -3px -3px 6px rgba(255, 255, 255, 0),
+  3px 3px 6px rgba(#c5cde6, 0.5);
+$inverse-card-plan-shadow: inset -5px -5px 9px #ffffff,
+  inset 5px 5px 9px #e1e8fd;
+$event-shadow: 0 8px 39px #d3e1ed;
+$top-menu-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+$menu-shadow: -10px 0 50px rgba(28, 28, 69, 0.25);
+$turret-card-shadow: 0 -8px 15px -8px #91aabe;
+// 0 -50px 80px -30px #91aabe;
+$turret-header-shadow: 0 -5px 17px -13px #91aabe, -75px -78px 20px -81px #91aabe,
+  90px -78px 20px -83px #91aabe;
+$turret-header-mobile-shadow: 0 -5px 17px -63px #91aabe,
+  -75px -78px 20px -81px #91aabe, 90px -78px 20px -83px #91aabe;
+// pub color
+$bt-color: #666666;
+// grid breakpoints
+$grid-breakpoints: (
+  xs: 0,
+  sm: 480px,
+  md: 960px,
+  lg: 1200px,
+  xl: 1440px,
+);
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 1140px,
+  xl: 1366px,
+);

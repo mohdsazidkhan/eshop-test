@@ -1,0 +1,19 @@
+mixin comp-card-plan-single-a(obj)
+	// CARD SINGLE START HERE
+	.comp.card-plan-single
+		.card-plan
+			.plan-title
+				img(src=obj.packageImg)
+			.plan-value
+				if obj.baseDollar != "" && obj.baseCent != ""
+					p.caption Includes:
+				ul.val-prop
+					each valprop in obj.valueProp
+						li.bodytext !{valprop.val}
+			.plan-cta
+				if obj.baseDollar != "" && obj.baseCent != ""
+					p.current-price.section-title $!{obj.baseDollar}.!{obj.baseCent}
+					p.period /!{obj.term}
+				form.form-style(class=obj.customClass)
+					button.cta-button.button-text(data-id=obj.packageNm data-err=0) !{obj.ctaText}
+	// CARD SINGLE END HERE

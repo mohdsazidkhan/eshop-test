@@ -1,0 +1,14 @@
+<svg width="132" height="125" viewBox="0 0 132 125" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_301_2171" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="126" height="125">
+<circle cx="63.3506" cy="62.5" r="62.5" fill="#005DAA"/>
+</mask>
+<g mask="url(#mask0_301_2171)">
+<circle cx="62.8975" cy="62.0469" r="93.75" fill="#005DAA"/>
+<rect opacity="0.05" x="154.323" y="-31.7031" width="236.413" height="233.696" transform="rotate(45 154.323 -31.7031)" fill="white"/>
+</g>
+<path d="M63 63L63 11" stroke="white" stroke-width="6" stroke-linecap="round"/>
+<path d="M63 63H115" stroke="white" stroke-width="6" stroke-linecap="round"/>
+<path d="M103.453 82.5C104.608 80.5 107.494 80.5 108.649 82.5L128.551 116.972C129.706 118.972 128.263 121.472 125.953 121.472H86.1488C83.8394 121.472 82.396 118.972 83.5507 116.972L103.453 82.5Z" fill="#D8000C"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M106.227 94.8496C107.158 94.8496 107.912 95.604 107.912 96.5346V105.521C107.912 106.452 107.158 107.206 106.227 107.206C105.296 107.206 104.542 106.452 104.542 105.521V96.5346C104.542 95.604 105.296 94.8496 106.227 94.8496Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M104.542 112.26C104.542 111.33 105.291 110.575 106.216 110.575H106.238C107.163 110.575 107.912 111.33 107.912 112.26C107.912 113.191 107.163 113.945 106.238 113.945H106.216C105.291 113.945 104.542 113.191 104.542 112.26Z" fill="white"/>
+</svg>

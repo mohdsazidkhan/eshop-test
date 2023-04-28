@@ -1,0 +1,880 @@
+{
+  "tableStructure": {
+    "app": true,
+    "epaper": false,
+    "device": false,
+    "access": "1",
+    "print": false,
+    "contract": false
+  },
+  "template": [
+    {
+      "packageid": 1,
+      "packageNm": "Plan name",
+      "lang": "EN",
+      "baseDollar": "9",
+      "baseCent": "90",
+      "ctaText": "Button Label",
+      "term": "term",
+      "discountDollar": "",
+      "discountCent": "",
+      "note": "*contract/no contract",
+      "promo": false,
+      "promoFlag": "",
+      "tagline": "Tagline here",
+      "freebie": null,
+      "valueProp": [
+        {
+          "val": "Value Prop 1",
+          "key": false
+        },
+        {
+          "val": "Value Prop 2",
+          "key": false
+        },
+        {
+          "val": "Value Prop 3 with tooltip",
+          "tooltip": "This indicates the number of devices that you can log in to at the same time.",
+          "key": false
+        }
+      ],
+      "table": {
+        "app": true,
+        "epaper": false,
+        "device": false,
+        "access": "1",
+        "print": false,
+        "contract": false
+      },
+      "pdfDL": "#"
+    },
+    {
+      "packageid": 2,
+      "packageNm": "Plan name 2",
+      "lang": "EN",
+      "baseDollar": "9",
+      "baseCent": "90",
+      "ctaText": "Button Label",
+      "term": "term",
+      "discountDollar": "",
+      "discountCent": "",
+      "note": "*30 month contract",
+      "promo": true,
+      "promoFlag": "Promotion label",
+      "tagline": "Tagline here",
+      "freebie": null,
+      "valueProp": [
+        {
+          "val": "Value Prop 1",
+          "key": false
+        },
+        {
+          "val": "Value Prop 2",
+          "key": false
+        },
+        {
+          "val": "Value Prop 3 with tooltip",
+          "tooltip": "如果您已在4台设备上登录早报应用，您的登录次数已达上限，并且将无法在其他设备上登录",
+          "key": false
+        }
+      ],
+      "table": {
+        "app": true,
+        "epaper": "早报及新明",
+        "device": false,
+        "access": "4",
+        "print": false,
+        "contract": false
+      },
+      "pdfDL": "#"
+    },
+    {
+      "packageid": 3,
+      "packageNm": "Plan name 3",
+      "lang": "EN",
+      "baseDollar": "9",
+      "baseCent": "90",
+      "ctaText": "Button Label",
+      "term": "term",
+      "discountDollar": "",
+      "discountCent": "",
+      "note": "*30 month contract",
+      "promo": false,
+      "promoFlag": "",
+      "tagline": "Tagline here",
+      "freebie": null,
+      "valueProp": [
+        {
+          "val": "Value Prop 1",
+          "key": false
+        },
+        {
+          "val": "Value Prop 2",
+          "key": false
+        },
+        {
+          "val": "Value Prop 3 with tooltip",
+          "tooltip": "如果您已在4台设备上登录早报应用，您的登录次数已达上限，并且将无法在其他设备上登录",
+          "key": false
+        }
+      ],
+      "table": {
+        "app": true,
+        "epaper": true,
+        "device": "A Samsung Galaxy Tab A8 (Wi-Fi) or S6 Lite (LTE) Tablet<br> <a href='#'>Find out more</a>",
+        "access": "5",
+        "print": false,
+        "contract": false
+      },
+      "pdfDL": "#"
+    },
+
+    {
+      "packageid": 4,
+      "packageNm": "Plan name 4",
+      "lang": "EN",
+      "baseDollar": "9",
+      "baseCent": "90",
+      "ctaText": "Button Label",
+      "term": "term",
+      "discountDollar": "",
+      "discountCent": "",
+      "note": "*30 month contract",
+      "promo": false,
+      "promoFlag": "",
+      "tagline": "Tagline here",
+      "freebie": null,
+      "valueProp": [
+        {
+          "val": "Value Prop 1",
+          "key": false
+        },
+        {
+          "val": "Value Prop 2",
+          "key": false
+        },
+        {
+          "val": "Value Prop 3 with tooltip",
+          "tooltip": "如果您已在4台设备上登录早报应用，您的登录次数已达上限，并且将无法在其他设备上登录",
+          "key": false
+        }
+      ],
+      "table": {
+        "app": true,
+        "epaper": "早报及新明",
+        "device": false,
+        "access": "10",
+        "print": false,
+        "contract": false
+      },
+      "pdfDL": "#"
+    }
+  ],
+  "zb": [
+    {
+      "packageid": 5,
+      "packageNm": "数码配套个人版",
+      "lang": "",
+      "baseDollar": "9",
+      "baseCent": "90",
+      "ctaText": "立即订阅",
+      "term": "每月",
+      "discountDollar": "",
+      "discountCent": "",
+      "note": "*无合约",
+      "featured": true,
+      "promo": false,
+      "promoFlag": "",
+      "packageImg": "",
+      "tagline": "",
+      "freebie": null,
+      "valueProp": [
+        {
+          "val": "可通过早报应用和网站无限畅读订户专享内容",
+          "key": false
+        },
+        {
+          "val": "可阅读长达两周的早报及新明电子报",
+          "key": false
+        },
+        {
+          "val": "可在1台智能设备登录早报应用",
+          "tooltip": "如果您已在4台设备上登录早报应用，您的登录次数已达上限，并且将无法在其他设备上登录",
+          "key": false
+        }
+      ],
+      "table": [
+        {
+          "tablet": null,
+          "app": true,
+          "epaper": "早报及新明",
+          "device": false,
+          "access": "6",
+          "print": false,
+          "contract": "—"
+        }
+      ],
+      "pdfDL": "#"
+    },
+    {
+      "packageid": 6,
+      "packageNm": "平板电子报配套",
+      "lang": "",
+      "baseDollar": "24",
+      "baseCent": "90",
+      "ctaText": "立即订阅",
+      "term": "每月",
+      "discountDollar": "35",
+      "discountCent": "50",
+      "note": "30个月合约",
+      "featured": true,
+      "promo": true,
+      "promoFlag": "最畅销",
+      "packageImg": "",
+      "tagline": "",
+      "freebie": "附赠 Galaxy S6 Lite (LTE) 或 Tab A7 (Wi-Fi) 平板电脑 + 100元职总平价Fairprice礼券。<a href='#know-more'>了解详情</a>",
+      "valueProp": [
+        {
+          "val": "可通过 SPHtab 应用程序阅读电子报",
+          "key": false
+        },
+        {
+          "val": "可通过早报应用和网站无限畅读订户专享内容",
+          "key": false
+        },
+        {
+          "val": "可阅读长达两周的早报及新明电子报",
+          "key": false
+        },
+        {
+          "val": "可在1台智能设备登录早报应用",
+          "tooltip": "如果您已在4台设备上登录早报应用，您的登录次数已达上限，并且将无法在其他设备上登录",
+          "key": false
+        }
+      ],
+      "table": {
+        "app": true,
+        "epaper": "早报及新明",
+        "device": "附赠 Galaxy S6 Lite (LTE) 或 Tab A7 (Wi-Fi) 平板电脑 + 100元职总平价Fairprice礼券。<a href='#know-more'>了解详情</a>",
+        "access": "1",
+        "print": false,
+        "contract": "30个月"
+      },
+      "pdfDL": "#"
+    },
+    {
+      "packageid": 7,
+      "packageNm": "数码配套",
+      "lang": "",
+      "baseDollar": "26",
+      "baseCent": "90",
+      "ctaText": "立即订阅",
+      "term": "每月",
+      "discountDollar": "",
+      "discountCent": "",
+      "note": "无合约",
+      "featured": true,
+      "promo": false,
+      "promoFlag": "",
+      "packageImg": "",
+      "tagline": "",
+      "freebie": null,
+      "valueProp": [
+        {
+          "val": "可通过早报应用和网站无限畅读订户专享内容",
+          "key": false
+        },
+        {
+          "val": "可阅读长达两周的早报电子报",
+          "key": false
+        },
+        {
+          "val": "可同时在4台智能设备登录早报应用",
+          "tooltip": "如果您已在4台设备上登录早报应用，您的登录次数已达上限，并且将无法在其他设备上登录",
+          "key": false
+        },
+        {
+          "val": "印刷版报纸",
+          "key": false
+        }
+      ],
+      "table": {
+        "app": true,
+        "epaper": "早报及新明",
+        "device": false,
+        "access": "6",
+        "print": true,
+        "contract": false
+      },
+      "pdfDL": "#"
+    },
+    {
+      "packageid": 8,
+      "packageNm": "早报 + 新明数码配套",
+      "lang": "",
+      "baseDollar": "29",
+      "baseCent": "90",
+      "ctaText": "立即订阅",
+      "term": "每月",
+      "discountDollar": "",
+      "discountCent": "",
+      "note": "无合约",
+      "featured": true,
+      "promo": false,
+      "promoFlag": "",
+      "packageImg": "",
+      "tagline": "",
+      "freebie": null,
+      "valueProp": [
+        {
+          "val": "可通过早报应用和网站无限畅读订户专享内容",
+          "key": false
+        },
+        {
+          "val": "可阅读长达两周的早报及新明电子报",
+          "key": false
+        },
+        {
+          "val": "可同时在6台智能设备登录早报应用",
+          "tooltip": "如果您已在4台设备上登录早报应用，您的登录次数已达上限，并且将无法在其他设备上登录",
+          "key": false
+        }
+      ],
+      "table": {
+        "app": true,
+        "epaper": "早报",
+        "device": false,
+        "access": "4",
+        "print": true,
+        "contract": false
+      },
+      "pdfDL": null
+    }
+  ],
+  "zbPrintOnly": [
+    {
+      "packageid": 7,
+      "packageNm": "早报印刷 + 数码综合配套",
+      "lang": "",
+      "baseDollar": "3",
+      "baseCent": "50",
+      "ctaText": "立即订阅",
+      "term": "每月",
+      "discountDollar": "",
+      "discountCent": "",
+      "note": "无合约",
+      "featured": true,
+      "promo": false,
+      "promoFlag": "",
+      "packageImg": "",
+      "tagline": "",
+      "freebie": null,
+      "valueProp": [
+        {
+          "val": "可通过早报应用和网站无限畅读订户专享内容",
+          "key": false
+        },
+        {
+          "val": "可阅读长达两周的早报电子报",
+          "key": false
+        },
+        {
+          "val": "可同时在4台智能设备登录早报应用",
+          "tooltip": "如果您已在4台设备上登录早报应用，您的登录次数已达上限，并且将无法在其他设备上登录",
+          "key": false
+        },
+        {
+          "val": "印刷版报纸",
+          "key": false
+        }
+      ],
+      "pdfDL": ""
+    }
+  ],
+  "stDigital": [
+    {
+      "packageid": 5,
+      "packageNm": "One Digital",
+      "tagline": "Individual access",
+      "lang": "",
+      "baseDollar": "9",
+      "baseCent": "90",
+      "ctaText": "Get Started",
+      "term": "mth",
+      "discountDollar": "",
+      "discountCent": "",
+      "note": "no contract",
+      "tablet": null,
+      "featured": true,
+      "promo": false,
+      "promoFlag": "",
+      "packageImg": "",
+      "allowContract": true,
+      "freebie": null,
+      "valueProp": [
+        {
+          "val": "All subscriber-only content on ST app and straitstimes.com",
+          "key": false
+        },
+        {
+          "val": "ST app access on 1 mobile device",
+          "tooltip": "This indicates the number of devices that you can log in to at the same time.",
+          "key": false
+        }
+      ],
+      "table": {
+        "app": true,
+        "epaper": false,
+        "device": false,
+        "access": "1",
+        "print": false,
+        "contract": false
+      },
+      "options": false,
+      "optionURL": "options-all-digital.html"
+    },
+    {
+      "packageid": 6,
+      "packageNm": "News Tablet",
+      "tagline": "Access news on your very own tablet, included with this plan",
+      "lang": "",
+      "baseDollar": "24",
+      "baseCent": "90",
+      "ctaText": "Get Started",
+      "term": "mth",
+      "discountDollar": "",
+      "discountCent": "",
+      "note": "30 months contract",
+      "tablet": "A Samsung Galaxy Tab A8 (Wi-Fi) or S6 Lite (LTE) Tablet",
+      "featured": true,
+      "promo": true,
+      "promoFlag": "Featured",
+      "packageImg": "images/placeholders/package-img.png",
+      "allowContract": true,
+      "freebie": "A Samsung Galaxy Tab A8 (Wi-Fi) or S6 Lite (LTE) Tablet <a href='#'>Find out more</a>",
+      "valueProp": [
+        {
+          "val": "SPHtab app access on the News Tablet",
+          "key": true
+        },
+        {
+          "val": "All subscriber-only content on ST app and straitstimes.com",
+          "key": true
+        },
+        {
+          "val": "E-paper with 2-week archive",
+          "key": true
+        },
+        {
+          "val": "ST app access on 1 mobile device",
+          "tooltip": "This indicates the number of devices that you can log in to at the same time.",
+          "key": false
+        }
+      ],
+      "table": {
+        "app": "Includes SPHtab app access on the News Tablet",
+        "epaper": true,
+        "device": "A Samsung Galaxy Tab A8 (Wi-Fi) or S6 Lite (LTE) Tablet<br> <a href='#'>Find out more</a>",
+        "access": "1",
+        "print": false,
+        "contract": false
+      },
+      "options": true,
+      "optionURL": "options-news-tablet.html"
+    },
+    {
+      "packageid": 7,
+      "packageNm": "All Digital",
+      "tagline": "Family access",
+      "lang": "",
+      "baseDollar": "29",
+      "baseCent": "90",
+      "term": "mth",
+      "discountDollar": "",
+      "discountCent": "",
+      "ctaText": "Get Started",
+      "note": "No contract",
+      "tablet": null,
+      "featured": true,
+      "promo": false,
+      "promoFlag": "",
+      "packageImg": "",
+      "allowContract": false,
+      "freebie": null,
+      "valueProp": [
+        {
+          "val": "All subscriber-only content on ST app and straitstimes.com",
+          "key": false
+        },
+        {
+          "val": "E-paper with 2-week archive",
+          "key": false
+        },
+        {
+          "val": "ST app access on 4 mobile device",
+          "tooltip": "This indicates the number of devices that you can log in to at the same time.",
+          "key": false
+        }
+      ],
+      "table": {
+        "app": true,
+        "epaper": true,
+        "device": false,
+        "access": "4",
+        "print": false,
+        "contract": false
+      },
+      "options": false,
+      "optionURL": "options-all-digital.html"
+    },
+    {
+      "packageid": 8,
+      "packageNm": "All Digital + Print",
+      "tagline": "All-in-one plan with digital access and the daily print paper",
+      "lang": "",
+      "baseDollar": "29",
+      "baseCent": "90",
+      "term": "mth",
+      "discountDollar": "",
+      "discountCent": "",
+      "ctaText": "Get Started",
+      "note": "no contract",
+      "featured": false,
+      "promo": false,
+      "promoFlag": "",
+      "packageImg": "",
+      "allowContract": false,
+      "delivery": true,
+      "freebie": null,
+      "valueProp": [
+        {
+          "val": "All subscriber-only content on ST app and straitstimes.com",
+          "key": false
+        },
+        {
+          "val": "E-paper with 2-week archive",
+          "key": false
+        },
+        {
+          "val": "Concurrent access",
+          "tooltip": "This indicates the number of devices that you can log in to at the same time.",
+          "key": false
+        },
+        {
+          "val": "Daily print newspaper",
+          "key": false
+        }
+      ],
+      "table": {
+        "app": true,
+        "epaper": true,
+        "device": false,
+        "access": "4",
+        "print": true,
+        "contract": false
+      },
+      "options": true,
+      "optionURL": "options-all-digital.html"
+    }
+  ],
+  "stDigitalPrint": [
+    {
+      "packageid": 51,
+      "packageNm": "All-Digital + Print",
+      "tagline": "For you and your family needs",
+      "lang": "",
+      "baseDollar": "29",
+      "baseCent": "90",
+      "ctaText": "Get Started",
+      "term": "mth*",
+      "discountDollar": "",
+      "discountCent": "",
+      "note": "no contract",
+      "tablet": null,
+      "featured": true,
+      "promo": false,
+      "promoFlag": "",
+      "packageImg": "",
+      "allowContract": true,
+      "freebie": null,
+      "valueProp": [
+        {
+          "val": "All subscriber-only content on ST app and straitstimes.com",
+          "key": false
+        },
+        {
+          "val": "E-paper with 2-week archive",
+          "key": false
+        },
+        {
+          "val": "Concurrent access",
+          "tooltip": "This indicates the number of devices that you can log in to at the same time.",
+          "key": false
+        },
+        {
+          "val": "Daily print newspaper",
+          "data": "&#8212;",
+          "key": false
+        }
+      ],
+      "table": {
+        "app": true,
+        "epaper": "早报",
+        "device": false,
+        "access": "4",
+        "print": true,
+        "contract": false
+      },
+      "options": false,
+      "optionURL": "options-all-digital.html"
+    }
+  ],
+  "stuff_print": [
+    {
+      "packageid": 1,
+      "packageNm": "The Business Times",
+      "tagline": "",
+      "lang": "",
+      "baseDollar": "3",
+      "baseCent": "50",
+      "ctaText": "Get Print",
+      "term": "month",
+      "discountDollar": "",
+      "discountCent": "",
+      "note": false,
+      "tablet": null,
+      "featured": false,
+      "promo": false,
+      "promoFlag": "",
+      "packageImg": "images/logos/bt-logo.svg",
+      "allowContract": false,
+      "freebie": null,
+      "valueProp":  [
+        {
+          "val": "•&nbsp;Daily print edition of The Business Times",
+          "key": false
+        }
+      ]
+    },
+    {
+      "packageid": 2,
+      "packageNm": "The Straits Times",
+      "tagline": "",
+      "lang": "",
+      "baseDollar": "3",
+      "baseCent": "50",
+      "ctaText": "Get Print",
+      "term": "month",
+      "discountDollar": "",
+      "discountCent": "",
+      "note": false,
+      "tablet": null,
+      "featured": false,
+      "promo": false,
+      "promoFlag": "",
+      "packageImg": "images/logos/st_brand-logo.svg",
+      "allowContract": false,
+      "freebie": null,
+      "valueProp":  [
+        {
+          "val": "•&nbsp;Daily print edition of The Straits Times",
+          "key": false
+        }
+      ]
+    },
+    {
+      "packageid": 3,
+      "packageNm": "Berita Harian",
+      "tagline": "",
+      "lang": "",
+      "baseDollar": "3",
+      "baseCent": "50",
+      "ctaText": "Get Print",
+      "term": "month",
+      "discountDollar": "",
+      "discountCent": "",
+      "note": false,
+      "tablet": null,
+      "featured": false,
+      "promo": false,
+      "promoFlag": "",
+      "packageImg": "images/logos/bh_brand-logo.svg",
+      "allowContract": false,
+      "freebie": null,
+      "valueProp":  [
+        {
+          "val": "•&nbsp;Daily print edition of Berita Harian",
+          "key": false
+        }
+      ]
+    },
+    {
+      "packageid": 4,
+      "packageNm": "Zaobao",
+      "tagline": "",
+      "lang": "",
+      "baseDollar": "3",
+      "baseCent": "50",
+      "ctaText": "Get Print",
+      "term": "month",
+      "discountDollar": "",
+      "discountCent": "",
+      "note": false,
+      "tablet": null,
+      "featured": false,
+      "promo": false,
+      "promoFlag": "",
+      "packageImg": "images/logos/zb_brand-logo.svg",
+      "allowContract": false,
+      "freebie": null,
+      "valueProp":  [
+        {
+          "val": "•&nbsp;Daily print edition of Zaobao",
+          "key": false
+        }
+      ]
+    }
+  ],
+  "mobile_one": [
+    {
+      "packageid": "st-pub",
+      "packageNm": "The Straits Times",
+      "tagline": "Enjoy breaking news and award-winning journalism on Singapore and the world",
+      "lang": "",
+      "baseDollar": "",
+      "baseCent": "",
+      "ctaText": "Select",
+      "term": "month",
+      "customClass":"pub-plan-single",
+      "discountDollar": "",
+      "discountCent": "",
+      "note": false,
+      "tablet": null,
+      "featured": false,
+      "promo": false,
+      "promoFlag": "",
+      "packageImg": "images/logos/st-mini-clear.png",
+      "packageMag": "",
+      "allowContract": false,
+      "freebie": null,
+      "valueProp":  [
+        {
+          "val": "Unlock your access to breaking news and award-winning journalism on Singapore and the world",
+          "key": false
+        }
+      ]
+    },
+    {
+      "packageid": "bt-pub",
+      "packageNm": "The Business Times",
+      "tagline": "Your Trusted Partner for Business Insights. Get the latest business and financial news",
+      "lang": "chi",
+      "baseDollar": "",
+      "baseCent": "",
+      "ctaText": "Select",
+      "term": "month",
+      "customClass":"pub-plan-single",
+      "discountDollar": "",
+      "discountCent": "",
+      "note": false,
+      "tablet": null,
+      "featured": false,
+      "promo": false,
+      "promoFlag": "",
+      "packageImg": "images/logos/bt-mini-clear.png",
+      "packageMag": "",
+      "allowContract": false,
+      "freebie": null,
+      "valueProp":  [
+        {
+          "val": "Your Trusted Partner for Business Insights. Get the latest business and financial news",
+          "key": false
+        }
+      ]
+    },
+    {
+      "packageid": "zb-pub",
+      "packageNm": "Lianhe Zaobao",
+      "tagline": "读早报、长知识、拓眼界从新加坡视角掌握全球消息，不错过重大事件",
+      "lang": "chi",
+      "baseDollar": "",
+      "baseCent": "",
+      "ctaText": "Select",
+      "term": "month",
+      "customClass":"pub-plan-single",
+      "discountDollar": "",
+      "discountCent": "",
+      "note": false,
+      "tablet": null,
+      "featured": false,
+      "promo": false,
+      "promoFlag": "",
+      "packageImg": "images/logos/zb-color-circle.png",
+      "packageMag": "",
+      "allowContract": false,
+      "freebie": null,
+      "valueProp":  [
+        {
+          "val": "读早报、长知识、拓眼界从新加坡视角掌握全球消息，不错过重大事件",
+          "key": false
+        }
+      ]
+    }
+  ],
+  "mobile_one_mag": [
+    {
+      "packageid": "female-mag",
+      "packageNm": "Female",
+      "tagline": "Singapore's progressive women's fashion & beauty magazine",
+      "lang": "chi",
+      "baseDollar": "",
+      "baseCent": "",
+      "ctaText": "Select",
+      "term": "month",
+      "customClass":"magazine-plan-single",
+      "disabled": true,
+      "discountDollar": "",
+      "discountCent": "",
+      "note": false,
+      "tablet": null,
+      "featured": false,
+      "promo": false,
+      "promoFlag": "",
+      "packageImg": "images/logos/female-logo.png",
+      "packageMag": "images/placeholders/female-mag.jpg",
+      "valueProp":  [
+        {
+          "val": "Singapore's progressive women's fashion & beauty magazine",
+          "key": false
+        }
+      ]
+    },
+    {
+      "packageid": "hwm-mag",
+      "packageNm": "HWM Singapore",
+      "tagline": "Consumer technology publication covering the 3Cs of tech - Computers, Consumer Electronics & Communications",
+      "lang": "chi",
+      "baseDollar": "",
+      "baseCent": "",
+      "customClass":"magazine-plan-single",
+      "disabled": true,
+      "ctaText": "Select",
+      "term": "month",
+      "discountDollar": "",
+      "discountCent": "",
+      "note": false,
+      "tablet": null,
+      "featured": false,
+      "promo": false,
+      "promoFlag": "",
+      "packageImg": "images/logos/hwm-logo.png",
+      "packageMag": "images/placeholders/hwm-mag.jpg",
+      "valueProp":  [
+        {
+          "val": "Singapore's progressive women's fashion & beauty magazine",
+          "key": false
+        }
+      ]
+    }
+  ]
+}

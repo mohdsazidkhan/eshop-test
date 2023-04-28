@@ -1,0 +1,306 @@
+/* fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+$primary-font: "Source Sans Pro";
+$supporting-font: "Lora";
+$source-code-pro-600: "Source Sans Pro";
+$source-sans-pro-700: "Source Sans Pro";
+$inter-regular: "Inter";
+$curator-head-st-regular-webfont: " Curator Head ST Regular";
+
+/* text styles*/
+
+@mixin page-title-desktop() {
+  font-family: $source-code-pro-600;
+  font-size: 48px;
+  line-height: 67px;
+  letter-spacing: 0em;
+}
+
+@mixin section-title-desktop() {
+  font-family: $source-code-pro-600;
+  font-size: 36px;
+  line-height: 41px;
+  letter-spacing: 0em;
+}
+
+@mixin block-title-desktop() {
+  font-family: $source-code-pro-600;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0em;
+}
+
+@mixin quote-text-desktop() {
+  font-family: $primary-font;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0em;
+}
+
+@mixin subtitle-desktop() {
+  font-family: $supporting-font;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0em;
+}
+
+@mixin emphasise-text-desktop() {
+  font-family: $source-code-pro-600;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0em;
+}
+
+@mixin body-text-desktop() {
+  font-family: $primary-font;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0em;
+}
+
+@mixin caption-desktop() {
+  font-family: $primary-font;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0em;
+}
+
+@mixin tag-label-desktop() {
+  font-family: $source-code-pro-600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0em;
+}
+
+@mixin page-title-mobile() {
+  font-family: $source-code-pro-600;
+  font-size: 36px;
+  line-height: 41px;
+  letter-spacing: 0em;
+}
+
+@mixin section-title-mobile() {
+  font-family: $source-code-pro-600;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0em;
+}
+
+@mixin block-title-mobile() {
+  font-family: $source-code-pro-600;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0em;
+}
+
+@mixin quote-text-mobile() {
+  font-family: $primary-font;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0em;
+}
+
+@mixin subtitle-mobile() {
+  font-family: $supporting-font;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0em;
+}
+
+@mixin emphasise-text-mobile() {
+  font-family: $source-code-pro-600;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0em;
+}
+
+@mixin body-text-mobile() {
+  font-family: $primary-font;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0em;
+}
+
+@mixin caption-mobile() {
+  font-family: $primary-font;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0em;
+}
+
+@mixin tag-label-mobile() {
+  font-family: $source-code-pro-600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0em;
+}
+
+@mixin display-1-desktop() {
+  font-family: $source-sans-pro-700;
+  font-size: 80px;
+  line-height: 92px;
+  letter-spacing: 0em;
+}
+
+@mixin display-2-desktop() {
+  font-family: $source-sans-pro-700;
+  font-size: 72px;
+  line-height: 83px;
+  letter-spacing: 0em;
+}
+
+@mixin display-3-desktop() {
+  font-family: $source-sans-pro-700;
+  font-size: 60px;
+  line-height: 69px;
+  letter-spacing: 0em;
+}
+
+@mixin sub-display-desktop() {
+  font-family: $supporting-font;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0em;
+}
+
+@mixin display-1-mobile() {
+  font-family: $source-sans-pro-700;
+  font-size: 54px;
+  line-height: 62px;
+  letter-spacing: 0em;
+}
+
+@mixin display-2-mobile() {
+  font-family: $source-sans-pro-700;
+  font-size: 48px;
+  line-height: 55px;
+  letter-spacing: 0em;
+}
+
+@mixin display-3-mobile() {
+  font-family: $source-sans-pro-700;
+  font-size: 36px;
+  line-height: 41px;
+  letter-spacing: 0em;
+}
+
+@mixin sub-display-mobile() {
+  font-family: $supporting-font;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0em;
+}
+
+@mixin main-nav-link-desktop() {
+  font-family: $primary-font;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0em;
+}
+
+@mixin main-nav-link-mobile() {
+  font-family: $primary-font;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0em;
+}
+
+@mixin main-nav-link-active-desktop() {
+  font-family: $source-code-pro-600;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0em;
+}
+
+@mixin main-nav-link-active-mobile() {
+  font-family: $source-code-pro-600;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 0em;
+}
+
+@mixin sub-nav-link-desktop() {
+  font-family: $primary-font;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0em;
+}
+
+@mixin sub-nav-link-mobile() {
+  font-family: $primary-font;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0em;
+}
+
+@mixin greeting-desktop() {
+  font-family: $primary-font;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0em;
+}
+
+@mixin greeting-mobile() {
+  font-family: $primary-font;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0em;
+}
+
+@mixin footer-category-desktop() {
+  font-family: $source-code-pro-600;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0em;
+}
+
+@mixin footer-category-mobile() {
+  font-family: $source-code-pro-600;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0em;
+}
+
+@mixin footer-nav-link-desktop() {
+  font-family: $primary-font;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0em;
+}
+
+@mixin footer-nav-link-mobile() {
+  font-family: $primary-font;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0em;
+}
+
+@mixin footer-text-desktop() {
+  font-family: $primary-font;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0em;
+}
+
+@mixin footer-text-mobile() {
+  font-family: $primary-font;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0em;
+}
+
+@mixin footer-copyright-desktop() {
+  font-family: $primary-font;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0em;
+}
+
+@mixin footer-copyright-mobile() {
+  font-family: $primary-font;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0em;
+}

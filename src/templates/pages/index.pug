@@ -1,0 +1,84 @@
+extends /src/templates/_layouts/default.pug
+
+block vars
+  - var toggleIE = false;
+  - var toggleMaintenace = false;
+  - var loggedIn = false;
+  - var corpPlan = false;
+  - var backToPub = false;
+  - var pageNm = 'Homepage';
+  - var checkoutFlow = false;
+  - var footerCopy = false;
+  - var catfish = true;
+  - var pub = 'eshop';
+  - var theme = 'standard';
+
+block content
+  .page-content(class='theme--'+pub + ' ' + pub)
+    .section-container
+      +comp-promo-hero-panel({id:"comp-promo-m1-hero-panel-1", pub: 'm-one'})
+    .section-container
+      +comp-promo-val-prop-list({id:'m-one-list'})
+    //- desktop
+    .section-container.alt-bg.d-none.d-lg-block(id="step-1-desktop")
+      .section-header.text-center.text-md-left.padding-top-xl
+        .container
+          .row
+            .col-12
+              p STEP 1 OF 2
+              h2.no-line-divider.mt-0 Select your preferred news publication
+              p Choose 1 out of the 3 news publication
+      .section-body
+        .comp.comp-card-plan
+          .comp-holder
+            .container
+              .row
+                .col-12
+                  .row.no-gutters
+                    each plan in mobile_one
+                      .col-lg-4.promo-single-container
+                        +comp-card-plan-single-a(plan)
+    .section-container.alt-bg.d-none.d-lg-block(id="step-2-desktop")
+      .section-header.text-center.text-md-left.padding-top-xl
+        .container
+          .row
+            .col-12
+              p STEP 2 OF 2
+              h2.no-line-divider.mt-0 Select your preferred magazine
+              p Choose 1 out of the 3 news publication
+      .section-body
+        .comp.comp-card-plan
+          .comp-holder
+            .container
+              .row
+                .col-12
+                  .row.no-gutters
+                    each plan in mobile_one_mag
+                      .col-lg-4.promo-single-container
+                        +comp-card-plan-single-a(plan)
+        .disabled
+    //- destop end
+    .section-container.mobile.d-lg-none(id="step-1-mobile")
+      .section-header.text-center.padding-top-lg
+        .container
+          .row
+            .col-12
+              h2.no-line-divider.mt-0 Select your preferred news and magazine subscriptions
+      .section-body
+        .comp.comp-card-plan
+          .comp-holder
+            .container
+              .row
+                .col-12.promo-single-container.px-3
+                  +comp-card-plan-single-dropdown({plans: mobile_one, pub: 'pub-select', step: 1, header: 'Choose your preferred news publication', customClass:'mutli-select-pub', disabled: false})
+      .section-body
+        .comp.comp-card-plan
+          .comp-holder
+            .container
+              .row
+                .col-12.promo-single-container.px-3
+                  +comp-card-plan-single-dropdown({plans: mobile_one_mag, pub: 'mag-select', step: 2, header: 'Choose your preferred magazine', customClass:'mutli-select-mag', disabled: true})
+block scripts
+  script(src=absoluteUrl + 'js/plan-selection.js')
+  script(src=absoluteUrl + 'js/lightbox.js')
+  script(src=absoluteUrl + 'js/main.js')

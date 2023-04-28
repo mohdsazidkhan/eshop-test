@@ -1,0 +1,71 @@
+mixin comp-footer
+  // FOOTER - STARTS HERE
+  footer.fluid-container
+    if !checkoutFlow
+      .container
+        .row
+          .col-9.col-md-3.col.newspaper-links
+            .footer-navi
+              ul.footer-menu
+                each footerLink in footerNavi
+                  if footerLink.label == 'About'
+                    li
+                      p.link-cat !{footerLink.label}
+                      if footerLink.child != false
+                        ul
+                          each innerLink in footerLink.child
+                            li
+                              a(href=innerLink.link) !{innerLink.label}
+          if !footerCopy
+            .col-12.col-md-4.col.company-links
+              .footer-navi
+                .contact-container
+                  p.link-cat Contact Us
+                  .contact-details
+                    p.desk-only Write to us
+                    p.mob-only Write to us
+                    a(href="mailto:circ@sph.com.sg") circ@sph.com.sg
+                    p.desk-only For corporate
+                    p.mob-only For corporate
+                    a(href="mailto:corporate@sph.com.sg") corporate@sph.com.sg
+                    //- p.small-txt (Mon - Fri, Closed on Public Holidays)
+                    p.desk-only Send us a message
+                    p.mob-only For corporate
+                    a(href="#") Online form
+          else
+            .col-12.col-md-4.col.company-links
+              .footer-navi
+                .contact-container
+                  p.link-cat Contact Us
+                  .contact-details
+                    p.desk-only +65 6388 3838
+                    a(href="callto:63883838").mob-only +65 6388 3838
+                    p Operation Hours: 8.30am to 6pm
+                    p.small-txt (Mon - Fri, Closed on Public Holidays)
+                    a(href="mailto:help@sph.com.sg") help@sph.com.sg
+          .col-3.col-md-4.offset-md-1.col.newsletter-footer
+            .logo-container
+              a(href=absoluteUrl + "index.html",data-ajax="false")
+                include ../../images/logos/sph-logo-white.svg
+        .copy-container
+        .row
+          .col-12
+            .copy
+              span Copyright © 2021 SPH MEDIA LIMITED. Regn No. 202120748H All Rights Reserved. <br>
+              | 1000 Toa Payoh North Annexe Level 6, News Centre Singapore 318994
+    else
+      .container
+        .row
+          .col-9.col.newspaper-links
+            .secure-lock
+              include ../../images/icons/lock-white.svg
+              | Secured &amp; Encrypted
+            .copy
+              span Copyright © 2021 SPH MEDIA LIMITED. Regn No. 202120748H. All Rights Reserved. <br>
+              | 1000 Toa Payoh North Annexe Level 6, News Centre Singapore 318994
+          .col-3.col.newsletter-footer
+            .logo-container
+              a(href=absoluteUrl + "index.html",data-ajax="false")
+                img(src=imagesUrl + "/logos/sph-logo-white.svg")
+    //- +comp-cookie-banner
+  // FOOTER - STARTS HERE

@@ -1,0 +1,216 @@
+
+/* colors token */
+
+$theme-highlight-text: 'theme-highlight-text';
+$theme-core-text: 'theme-core-text';
+$theme-link-text: 'theme-link-text';
+$theme-muted-text: 'theme-muted-text';
+$theme-background: 'theme-background';
+$theme-alt-background: 'theme-alt-background';
+$theme-divider: 'theme-divider';
+$theme-divider-text-label: 'theme-divider-text-label';
+$theme-border: 'theme-border';
+$theme-primary-button: 'theme-primary-button';
+$theme-primary-button-border: 'theme-primary-button-border';
+$theme-primary-button-text-label: 'theme-primary-button-text-label';
+$theme-input: 'theme-input';
+$theme-input-border: 'theme-input-border';
+$theme-input-text-label-bg: 'theme-input-text-label-bg';
+$theme-alert: 'theme-alert';
+$theme-input-text-label: 'theme-input-text-label';
+$theme-selector: 'theme-selector';
+$theme-active-border: 'theme-active-border';
+$theme-active-state-label: 'theme-active-state-label';
+$theme-active-selector: 'theme-active-selector';
+$theme-hover: 'theme-hover';
+$theme-disabled: 'theme-disabled';
+$theme-disabled-state-label: 'theme-disabled-state-label';
+$theme-promo-bg: 'theme-promo-bg';
+$theme-promo-text-label: 'theme-promo-text-label';
+
+//themes
+$cthemes: (
+/* standard themes */
+eshop: (
+        theme-highlight-text: $color-blue-700,
+        theme-core-text: $greyscale-grey-800,
+        theme-link-text: $color-blue-500,
+        theme-muted-text: $greyscale-grey-500,
+        theme-background: $greyscale-white,
+        theme-alt-background: $greyscale-grey-100,
+        theme-divider: $greyscale-grey-200,
+        theme-divider-text-label: $greyscale-grey-200,
+        theme-border: $greyscale-grey-200,
+        theme-primary-button: $color-blue-700,
+        theme-primary-button-border: $color-blue-700,
+        theme-primary-button-text-label: $greyscale-grey-100,
+        theme-input: $greyscale-white,
+        theme-input-border: $greyscale-grey-200,
+        theme-input-text-label-bg: $greyscale-white,
+        theme-alert: $color-crimson,
+        theme-input-text-label: $greyscale-grey-400,
+        theme-selector: $greyscale-grey-800,
+        theme-active-border: $color-blue-700,
+        theme-active-state-label: $greyscale-white,
+        theme-active-selector: $color-blue-700,
+        theme-hover: $greyscale-white,
+        theme-disabled: $greyscale-grey-200,
+        theme-disabled-state-label: $greyscale-white,
+        theme-promo: $color-orange,
+        theme-promo-bg: $greyscale-white,
+        theme-promo-text-label: $greyscale-white
+),
+
+/* ST themes */
+st: (
+        theme-highlight-text: $st-blue-900,
+        theme-core-text: $greyscale-black,
+        theme-link-text: $st-blue-700,
+        theme-muted-text: $greyscale-grey-500,
+        theme-background: $greyscale-white,
+        theme-alt-background: $st-blue-100,
+        theme-divider: $greyscale-grey-200,
+        theme-divider-text-label: $greyscale-grey-200,
+        theme-border: $greyscale-grey-200,
+        theme-primary-button: $st-turquoise,
+        theme-primary-button-border: $st-turquoise,
+        theme-primary-button-text-label: $greyscale-black,
+        theme-input: $greyscale-white,
+        theme-input-border: $greyscale-grey-200,
+        theme-input-text-label-bg: $greyscale-white,
+        theme-alert: $st-alert-red,
+        theme-input-text-label: $greyscale-grey-400,
+        theme-selector: $greyscale-grey-800,
+        theme-active-border: $st-turquoise,
+        theme-active-state-label: $greyscale-black,
+        theme-active-selector: $st-turquoise,
+        theme-hover: $st-turquoise,
+        theme-disabled: $greyscale-grey-200,
+        theme-disabled-state-label: $greyscale-white,
+        theme-promo: $st-grey-700,
+        $theme-promo-bg: $greyscale-grey-800,
+        $theme-promo-text-label: $greyscale-white
+),
+
+/* ST themes */
+bt: (
+        theme-highlight-text: $color-blue-700,
+        theme-core-text: $greyscale-grey-800,
+        theme-link-text: $color-blue-500,
+        theme-muted-text: $greyscale-grey-500,
+        theme-background: $greyscale-white,
+        theme-alt-background: $greyscale-grey-900,
+        theme-divider: $greyscale-grey-200,
+        theme-divider-text-label: $greyscale-grey-200,
+        theme-border: $greyscale-grey-200,
+        theme-primary-button: $bt-blue-300,
+        theme-primary-button-border: $color-blue-700,
+        theme-primary-button-text-label: $greyscale-grey-100,
+        theme-input: $greyscale-white,
+        theme-input-border: $greyscale-grey-200,
+        theme-input-text-label-bg: $greyscale-white,
+        theme-alert: $color-crimson,
+        theme-input-text-label: $greyscale-grey-400,
+        theme-selector: $greyscale-grey-800,
+        theme-active-border: $greyscale-grey-900,
+        theme-active-state-label: $greyscale-grey-900,
+        theme-active-selector: $greyscale-grey-900,
+        theme-hover: $greyscale-grey-500,
+        theme-disabled: $greyscale-grey-200,
+        theme-disabled-state-label: $greyscale-white,
+        theme-promo: $color-orange,
+),
+
+/* ST themes */
+zb: (
+        theme-highlight-text: $zb-red-900,
+        theme-core-text: $zb-grey-900,
+        theme-link-text: $zb-red-900,
+        theme-muted-text: $zb-grey-600,
+        theme-background: $greyscale-white,
+        theme-alt-background: $zb-grey-300,
+        theme-divider: $zb-grey-500,
+        theme-divider-text-label: $zb-grey-500,
+        theme-border: $zb-grey-500,
+        theme-primary-button: $zb-red-900,
+        theme-primary-button-border: $zb-red-900,
+        theme-primary-button-text-label: $greyscale-white,
+        theme-input: $greyscale-white,
+        theme-input-border: $greyscale-grey-200,
+        theme-input-text-label-bg: $greyscale-white,
+        theme-alert: $zb-red-700,
+        theme-input-text-label: $greyscale-grey-400,
+        theme-selector: $zb-red-900,
+        theme-active-border: $zb-red-900,
+        theme-active-state-label: $greyscale-white,
+        theme-active-selector: $zb-red-900,
+        theme-hover: $zb-red-900,
+        theme-disabled: $zb-grey-500,
+        theme-disabled-state-label: $greyscale-white,
+        theme-promo: $zb-pink,
+),
+
+/* ST themes */
+bh: (
+        theme-highlight-text: $color-blue-700,
+        theme-core-text: $greyscale-grey-800,
+        theme-link-text: $bh-blue-900,
+        theme-muted-text: $greyscale-grey-500,
+        theme-background: $greyscale-white,
+        theme-alt-background: $greyscale-grey-100,
+        theme-divider: $greyscale-grey-200,
+        theme-divider-text-label: $greyscale-grey-200,
+        theme-border: $greyscale-grey-200,
+        theme-primary-button: $bh-blue-900,
+        theme-primary-button-border: $bh-blue-900,
+        theme-primary-button-text-label: $greyscale-grey-100,
+        theme-input: $greyscale-white,
+        theme-input-border: $greyscale-grey-200,
+        theme-input-text-label-bg: $greyscale-white,
+        theme-alert: $bh-red,
+        theme-input-text-label: $greyscale-grey-400,
+        theme-selector: $greyscale-grey-800,
+        theme-active-border: $bh-blue-200,
+        theme-active-state-label: $bh-blue-200,
+        theme-active-selector: $bh-blue-200,
+        theme-hover: $color-blue-200,
+        theme-disabled: $greyscale-grey-200,
+        theme-disabled-state-label: $greyscale-white,
+        theme-promo: $color-orange,
+        $theme-promo-bg: $greyscale-grey-800,
+        $theme-promo-text-label: $greyscale-white
+),
+
+/* ST themes */
+tm: (
+        theme-highlight-text: $color-blue-700,
+        theme-core-text: $greyscale-grey-800,
+        theme-link-text: $tm-red-900,
+        theme-muted-text: $greyscale-grey-500,
+        theme-background: $greyscale-white,
+        theme-alt-background: $greyscale-grey-100,
+        theme-divider: $greyscale-grey-200,
+        theme-divider-text-label: $greyscale-grey-200,
+        theme-border: $greyscale-grey-200,
+        theme-primary-button: $tm-orange-800,
+        theme-primary-button-border: $tm-orange-700,
+        theme-primary-button-text-label: $greyscale-grey-100,
+        theme-input: $greyscale-white,
+        theme-input-border: $greyscale-grey-200,
+        theme-input-text-label-bg: $greyscale-white,
+        theme-alert: $color-orange,
+        theme-input-text-label: $greyscale-grey-400,
+        theme-selector: $greyscale-grey-800,
+        theme-active-border: $tm-red-900,
+        theme-active-state-label: $tm-red-900,
+        theme-active-selector: $tm-red-900,
+        theme-hover: $tm-red-900,
+        theme-disabled: $greyscale-grey-200,
+        theme-disabled-state-label: $greyscale-white,
+        theme-promo: $tm-red-900,
+        $theme-promo-bg: $greyscale-grey-800,
+        $theme-promo-text-label: $greyscale-white
+),
+
+);
+/* End */

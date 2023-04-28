@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "Curator Head ST Regular";
+  src: url("/fonts/ST/Curator Head ST Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "Curator Head ST SemiBold";
+  src: url("/fonts/ST/Curator Head ST SemiBold.otf") format("opentype");
+}
+@font-face {
+  font-family: "Curator Head ST Bold";
+  src: url("/fonts/ST/Curator Head ST Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "Selane ST Ten";
+  src: url("/fonts/ST/SelaneST_ten.otf") format("opentype");
+}

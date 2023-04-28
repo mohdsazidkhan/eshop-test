@@ -1,0 +1,77 @@
+{
+	"order_summary": [
+		{
+			"id": "m1",
+			"new_buy": false,
+			"reference_id": "123456TST",
+			"invoice_num": "12345678",
+			"misc_fee":  3.00,
+			"total": 48.00,
+			"title": "Summary",
+			"plans":[]
+		},
+		{
+			"id":  "st",
+			"new_buy": false,
+			"reference_id": "123456TST",
+			"invoice_num": "12345678",
+			"misc_fee":  3.00,
+			"total": 48.00,
+			"title": "Summary",
+			"plans":[]
+		},
+		{
+			"id":  "st-all-in-one",
+			"new_buy": true,
+			"reference_id": "123456TST",
+			"invoice_num": "12345678",
+			"misc_fee":  3.00,
+			"total": 64.00,
+			"title": "Order Summary",
+			"plans": [
+				{
+					"package": "The Straits Times All-in-One",
+					"period": "<sup>*</sup>24 Month Contract",
+					"price": 29.00,
+					"term": "per month",
+					"delivery_fee": 3.00
+				},
+				{
+					"package": "The Business Times All-in-One",
+					"period": "<sup>*</sup>24 Month Contract",
+					"price": 29.00,
+					"term": "per month",
+					"delivery_fee": 3.00
+				}
+			]
+		},
+		{
+			"id":  "bt-all-in-one",
+			"new_buy": true,
+			"reference_id": "123456TST",
+			"invoice_num": "12345678",
+			"misc_fee":  3.00,
+			"total": 64.00,
+			"title": "Order Summary",
+			"plans": [
+				{
+					"package": "The Business Times All-in-One",
+					"period": "<sup>*</sup>24 Month Contract",
+					"price": 29.00,
+					"term": "per month",
+					"delivery_fee": 3.00
+				}
+			]
+		},
+		{
+			"id": "update-payment",
+			"update_payment": true,
+			"new_buy":false,
+			"title": "Existing payment method",
+			"invoice_num": "12345678",
+			"card_type": "Amex",
+			"credit_card_number": "1234 XXXX XXXX 3456",
+			"expiry_date": "12/09"
+		}
+	]
+}

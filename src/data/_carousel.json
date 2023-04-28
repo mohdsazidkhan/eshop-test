@@ -1,0 +1,48 @@
+{
+	"heroCarousel": [{
+			"headline": "The Straits Times<br>News Tablet",
+			"subline": "The same great content,<br>repackaged",
+			"hero_image": "images/placeholders/",
+			"hero_mob_image": "images/placeholders/hero-carousel-mob-img.jpg",
+			"hero_bg_img": "images/placeholders/homepage-carousel/1.jpg",
+			"cta_link": "#",
+			"cta_label": "Subscribe Now"
+		},
+		{
+			"headline": "Pakej Tablet Berita Harian",
+			"subline": "Wajahnya sama seperti akhbar cetak, namun pengalaman membacanya jauh lebih menarik dan gembira!",
+			"hero_image": "images/placeholders/BH-Desktop.png",
+			"hero_mob_image": "images/placeholders/BH-Mobile.png",
+			"hero_bg_img": "images/placeholders/homepage-carousel/2.jpg",
+			"cta_link": "#",
+			"cta_label": "Subscribe Now"
+		},
+		{
+			"headline": "早报 SPH Tab 已出炉了",
+			"subline": "同样的优质资讯，增强的体验",
+			"hero_image": "images/placeholders/ZB-Desktop.png",
+			"hero_mob_image": "images/placeholders/ZB-Mobile.png",
+			"hero_bg_img": "images/placeholders/homepage-carousel/3.jpg",
+			"cta_link": "#",
+			"cta_label": "立即订阅"
+		},
+		{
+			"headline": "Keeping up to date with the latest business news",
+			"subline": "Enhancing your experience",
+			"hero_image": "images/placeholders/BT-Desktop.png",
+			"hero_mob_image": "images/placeholders/BT-Mobile.png",
+			"hero_bg_img": "images/placeholders/homepage-carousel/4.jpg",
+			"cta_link": "#",
+			"cta_label": "Get it today"
+		},
+		{
+			"headline": "The voice of the community",
+			"subline": "At your fingertips",
+			"hero_image": "images/placeholders/TM-Desktop.png",
+			"hero_mob_image": "images/placeholders/TM-Mobile.png",
+			"hero_bg_img": "images/placeholders/homepage-carousel/5.jpg",
+			"cta_link": "#",
+			"cta_label": "Get it today"
+		}
+	]
+}

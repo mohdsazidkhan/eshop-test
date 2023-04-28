@@ -1,0 +1,27 @@
+mixin comp-card-plan-single-dropdown(obj)
+	// CARD SINGLE START HERE
+	.comp.card-plan-single
+		.card-plan.select-container
+			.plan-title
+				p Step !{obj.step} of 2
+				h3=obj.header
+			form.checkout-style
+				.dropdown-select-container
+					.dropdown-select-selected(class=obj.customClass data-err=0)
+						.selected
+							img.paymentImg(src="")
+							p.label.placeholder Select Publication
+					.dropdown-select-options(class=obj.customClass)
+						.form-row
+							.form-element.select
+								each plan in obj.plans
+									input.selection(type="radio" id=plan.packageid name=obj.pub value=plan.packageNm data-label=plan.packageNm data-img=(plan.packageMag != "" ? plan.packageMag : plan.packageImg) data-tagline=plan.tagline)
+									label.multi-select(for=plan.packageid)
+										img(src=(plan.packageMag != "" ? plan.packageMag : plan.packageImg))
+										.content
+											p.semi-bold-text.pb-2
+												strong !{plan.packageNm}
+											p !{plan.tagline}
+		if obj.disabled
+			.disabled
+	// CARD SINGLE END HERE

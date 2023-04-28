@@ -1,0 +1,37 @@
+mixin comp-maintenance-notifier(option)
+  // Maintenance - START
+  .comp.comp-holder.maintenance-notifier(class=(option.toggle ? '' : 'd-none'))
+    .container
+      .row.justify-content-center
+        ul
+          li
+            include /src/images/icons/bell.svg
+            //- img(src=imagesUrl + "/icons/bell.svg")
+            p The website will be undergoing a scheduled maintenance in
+              strong 15 Minutes.
+              | Services will be on hold during the upgrade.
+            a(href="#" id="dismissBtn")
+              img(class="maintenance-dismiss" src=imagesUrl + "/icons/close-icon-black.svg")
+    script.
+      (function(){
+        'use strict'
+        document.addEventListener('DOMContentLoaded', function(){
+          var isMaintenance = false;
+          var getIeNotifierHeight;
+          var getHeaderHeight;
+          if ($('.ie-notifier').is(':visible')) {
+            getIeNotifierHeight = $('.ie-notifier').outerHeight()
+          } else {
+            getIeNotifierHeight = 0;
+          }
+          if (isMaintenance) {
+            $('.maintenance-notifier').removeClass('d-none')
+            getHeaderHeight = $('#the-header').outerHeight()
+            $('.maintenance-notifier').css('top', getHeaderHeight + getIeNotifierHeight + 'px')
+          }
+          $('#dismissBtn').click(function(){
+            $('.maintenance-notifier').fadeOut()
+          })
+        })
+      })(this, this.document)
+  // Maintenance - END

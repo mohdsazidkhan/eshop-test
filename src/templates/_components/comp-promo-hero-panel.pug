@@ -1,0 +1,66 @@
+mixin comp-promo-hero-panel(promo)
+	each val in comp_promo_hero_panel
+		if val.id == promo.id
+			.comp.comp-promo-hero-panel.resp-bg(id=val.id, class=(val.settings[0].text_color != '' ? val.settings[0].text_color : '')+ ' ' + (val.settings[0].orientation != '' ? val.settings[0].orientation : '') + ' ' + (promo.pub != null || undefined || ' ' ? promo.pub : ' '), style="background-image:url('"+ val.settings[0].bg_img+"'); background-color:" + val.settings[0].bg_color + ";", data-mob-bg=val.settings[0].bg_mob_img, data-des-bg=val.settings[0].bg_img )
+				.comp-holder
+					.container
+						.row
+							case val.id
+								when 'comp-promo-hero-panel-4'
+									.corp-plan-hero(class=(promo.pub != null || undefined || ' ' ? promo.pub + ' col-md-6 col-lg-5'  : 'col-md-5')) !{val.settings[0].title_text}
+										h3 !{val.settings[0].title_subtitle}
+										.subtext.corp-plan !{val.settings[0].html_content}
+										.col-md-8.col-lg-8.corp-plan-cta-holder
+											.cta-container.left
+												a.cta-button.full.cta-inquire.js-corp-plan-cta(href='#' class=(promo.pub != null || undefined || ' ' ? "cta-" + promo.pub : ' ')) Get In Touch
+									- break
+								when 'comp-promo-m1-hero-panel-1'
+									.col-md-5.offset-md-1.text-right
+										.img-container
+											if val.settings[0].hero_img
+												img(src=val.settings[0].hero_img)
+									.col-md-6
+										.hero-content.hex-rgba(bgColor=val.settings[0].bg_color)
+											h2 !{val.settings[0].title_text}
+											.subtext !{val.settings[0].html_content}
+											.row.no-gutters
+												.col-md-9.col-lg-7.col-xl-6.col-12
+													a.cta-button.full.text-uppercase(href='#' id=(promo.pub != null || undefined || ' ' ? "cta-" + promo.pub : ' ')) !{val.settings[0].cta_text}
+									- break
+								when 'comp-promo-staff-hero-panel-1'
+									.col-md-5.offset-md-1.text-right
+										.img-container
+											if val.settings[0].hero_img
+												img(src=val.settings[0].hero_img)
+									.col-md-6
+										.hero-content.hex-rgba(bgColor=val.settings[0].bg_color)
+											h2 !{val.settings[0].title_text}
+											.subtext !{val.settings[0].html_content}
+											.cta-container.left
+												button.cta-button.text-uppercase !{val.settings[0].cta_text}
+									- break
+								default
+									.col-md-5.offset-md-1.img-container
+										if val.settings[0].hero_img
+											img(src=val.settings[0].hero_img)
+									.col-md-5.comp-content
+										.hero-content.hex-rgba(bgColor=val.settings[0].bg_color)
+											h1 !{val.settings[0].title_text}
+											.subtext !{val.settings[0].html_content}
+							//- if val.id !== 'comp-promo-hero-panel-4'
+							//-   .col-md-5.offset-md-1.img-container
+							//-     if val.settings[0].hero_img
+							//-       img(src=val.settings[0].hero_img)
+							//-   .col-md-5.comp-contents
+							//-     .hero-content.hex-rgba(bgColor=val.settings[0].bg_color)
+							//-       h1 !{val.settings[0].title_text}
+							//-       .subtext !{val.settings[0].html_content}
+							//- else
+							//-   .corp-plan-hero(class=(promo.pub != null || undefined || ' ' ? promo.pub + ' col-md-6 col-lg-5'  : 'col-md-5')) !{val.settings[0].title_text}
+							//-     //- .corp-plan-imageholder
+							//-       img(src='./images/logos/bt-logo.svg')
+							//-     h3 !{val.settings[0].title_subtitle}
+							//-     .subtext.corp-plan !{val.settings[0].html_content}
+							//-     .col-md-8.col-lg-8.corp-plan-cta-holder
+							//-       .cta-container.left
+							//-         a.cta-button.full.cta-inquire.js-corp-plan-cta(href='#' class=(promo.pub != null || undefined || ' ' ? "cta-" + promo.pub : ' ')) Get In Touch

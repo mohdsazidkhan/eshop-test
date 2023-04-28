@@ -1,0 +1,9 @@
+mixin comp-country-code(car)
+  .comp.comp-country-code(for=car.id class=car.class)
+    .comp-holder
+      select(id="country-code" , name="country-code")
+        each country in countries
+          if country.code == car.selectval
+            option(value=country.phoneCode, selected) !{country.code} +!{country.phoneCode}
+          else
+            option(value=country.phoneCode) !{country.code} +!{country.phoneCode}

@@ -1,0 +1,29 @@
+mixin comp-catfish-checkout
+  // CATFISH CEHCKOUT START HERE
+  form.comp.comp-catfish-checkout
+    .comp-holder
+      .catfish-header
+        .toggle
+          img(src="images/icons/arrow-up.svg")
+        p Your Selections
+      .catfish-content-container
+        .row
+          .offset-md-2
+          .col-lg-2.d-none.d-lg-block
+            .product-summary
+              .label Product Summary
+          .col-lg-2.pt-3.pt-lg-0
+            .pub-selection
+              .label
+                p News Publication
+              .item(id="pub-item")
+              input(type="text" name="pub-selection" id="pub-item-input" value="" hidden)
+          .col-lg-2.pt-3.pt-lg-0
+            .mag-selection
+              .label
+                p Magazine
+              .item(id="mag-item")
+              input(type="text" name="mag-selection" id="mag-item-input" value="" hidden)
+          .col-lg-2.pt-3.pt-lg-0
+            button(disabled type="submit" id="pub-submit").cta-button.primary.full Continue
+  // CATFISH CHECKOUT ENDS HERE

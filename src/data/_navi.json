@@ -1,0 +1,283 @@
+{
+  "topNavi": [
+    {
+      "label": "Promotions",
+      "link": "#",
+      "child": false
+    },
+    {
+      "label": "Help",
+      "link": "#",
+      "child": false
+    }
+  ],
+  "menuNavi": [
+    {
+      "label": "Home",
+      "link": "index.html",
+      "child": false
+    },
+    {
+      "label": "Promotions",
+      "link": "promotions.html",
+      "child": false
+    },
+    {
+      "label": "News Publications",
+      "link": "#",
+      "child": [
+        {
+          "label": "The Straits Times",
+          "link": "publication-st.html",
+          "child": false
+        },
+        {
+          "label": "Lianhe Zaobao",
+          "link": "publication-zb.html",
+          "child": false
+        },
+        {
+          "label": "The Business Times",
+          "link": "#",
+          "child": false
+        },
+        {
+          "label": "Berita Harian",
+          "link": "#",
+          "child": false
+        },
+        {
+          "label": "Tamil Murasu",
+          "link": "#",
+          "child": false
+        },
+        {
+          "label": "Tabla",
+          "link": "#",
+          "child": false
+        }
+      ]
+    },
+    {
+      "label": "Student Publications",
+      "link": "#",
+      "child": false
+    },
+    {
+      "label": "Corporate<span class='new-tag'>new</span>",
+      "link": "corporate-plans.html",
+      "child": false
+    },
+    {
+      "label": "Help",
+      "link": "#",
+      "child": [
+        {
+          "label": "Customer Care",
+          "link": "customer-care.html",
+          "child": false
+        },
+        {
+          "label": "FAQs",
+          "link": "faq.html",
+          "child": false
+        },
+        {
+          "label": "Useful Links",
+          "link": "useful-links.html",
+          "child": false
+        }
+      ]
+    },
+    {
+      "label": "Contact",
+      "link": "contact-us.html",
+      "child": false
+    },
+    {
+      "label": "Pages",
+      "link": "pages.html",
+      "child": false
+    }
+  ],
+  "corpPlanMenuNavi": [
+    {
+      "id": "comp-promo-hero-panel-4",
+      "label": "Overview",
+      "link": "#",
+      "child": false,
+      "custom_class": "js-corp-menu-listing"
+    },
+    {
+      "id": "comp-promo-corp-plans-default-1",
+      "label": "Our plans",
+      "link": "#",
+      "child": false,
+      "custom_class": "js-corp-menu-listing"
+    },
+    {
+      "id": "corp-plan-val-1",
+      "label": "<span class='list-button'>Contact us</span>",
+      "link": "#",
+      "child": false,
+      "custom_class": "js-corp-plan-cta"
+    },
+    {
+      "id": "corps-plans-faq",
+      "label": "FAQ",
+      "link": "#",
+      "child": false,
+      "custom_class": "js-corp-menu-listing"
+    }
+  ],
+  "footerNavi": [
+    {
+      "label": "About",
+      "link": "#",
+      "child": [
+        {
+          "label": "Promotions",
+          "link": "#",
+          "child": false
+        },
+        {
+          "label": "Help",
+          "link": "#",
+          "child": false
+        },
+        {
+          "label": "Terms & Conditions",
+          "link": "terms-conditions.html",
+          "child": false
+        },
+        {
+          "label": "Privacy Policy",
+          "link": "#",
+          "child": false
+        },
+        {
+          "label": "Personal Data Protection",
+          "link": "#",
+          "child": false
+        }
+      ]
+    },
+    {
+      "label": "Company",
+      "link": "#",
+      "child": [
+        {
+          "label": "About SPH",
+          "link": "#",
+          "child": false
+        },
+        {
+          "label": "Jobs",
+          "link": "#",
+          "child": false
+        },
+        {
+          "label": "Advertise",
+          "link": "#",
+          "child": false
+        },
+        {
+          "label": "Obituaries",
+          "link": "#",
+          "child": false
+        },
+        {
+          "label": "Corporate",
+          "link": "#",
+          "child": false
+        },
+        {
+          "label": "Subscriptions",
+          "link": "#",
+          "child": false
+        },
+        {
+          "label": "Events",
+          "link": "#",
+          "child": false
+        },
+        {
+          "label": "Magazines",
+          "link": "#",
+          "child": false
+        },
+        {
+          "label": "Radio",
+          "link": "#",
+          "child": false
+        },
+        {
+          "label": "Rewards",
+          "link": "#",
+          "child": false
+        }
+      ]
+    }
+  ],
+  "termsNavi": [
+    {
+      "label": "Privacy Statement",
+      "link": "#",
+      "child": false
+    },
+    {
+      "label": "Personal Data Statement",
+      "link": "#",
+      "child": false
+    },
+    {
+      "label": "Terms & Conditions",
+      "link": "#",
+      "child": false
+    }
+  ],
+  "accountSideBarNav": [
+    {
+      "label": "Your Account",
+      "header": true,
+      "link": "your-account.html",
+      "child": false
+    },
+    {
+      "label": "Your profile",
+      "header": false,
+      "link": "your-profile.html",
+      "child": false
+    },
+    {
+      "label": "Your subscriptions",
+      "header": false,
+      "link": "your-subscriptions.html",
+      "child": false
+    },
+    {
+      "label": "Your cards",
+      "header": false,
+      "link": "your-payment.html",
+      "child": false
+    },
+    {
+      "label": "Your invoice",
+      "header": false,
+      "link": "your-invoice.html",
+      "child": false
+    },
+    {
+      "label": "Your devices",
+      "header": false,
+      "link": "your-device.html",
+      "child": false
+    },
+    {
+      "label": "Temporary Stop",
+      "header": false,
+      "link": "temp-stop.html",
+      "child": false
+    }
+  ]
+}

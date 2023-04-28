@@ -1,0 +1,196 @@
+{
+  "account": [
+    {
+      "label": "Your Account",
+      "url": "#"
+    }
+  ],
+  "invoice": [
+    {
+      "label": "Your Account",
+      "url": "your-account.html"
+    },
+    {
+      "label": "Your Invoices",
+      "url": ""
+    }
+  ],
+  "profile": [
+    {
+      "label": "Your Account",
+      "url": "your-account.html"
+    },
+    {
+      "label": "Profile",
+      "url": ""
+    }
+  ],
+  "subscriptions": [
+    {
+      "label": "Your Account",
+      "url": "your-account.html"
+    },
+    {
+      "label": "Your subcriptions",
+      "url": ""
+    }
+  ],
+  "personalDetails": [
+    {
+      "label": "Your Account",
+      "url": "your-account.html"
+    },
+    {
+      "label": "Your profile",
+      "url": "your-profile.html"
+    },
+    {
+      "label": "Personal Details",
+      "url": ""
+    }
+  ],
+  "commPreference": [
+    {
+      "label": "Your Account",
+      "url": "your-account.html"
+    },
+    {
+      "label": "Your profile",
+      "url": "your-profile.html"
+    },
+    {
+      "label": "Communication preference",
+      "url": ""
+    }
+  ],
+  "payment": [
+    {
+      "label": "Your Account",
+      "url": "your-account.html"
+    },
+    {
+      "label": "Your payment methods",
+      "url": ""
+    }
+  ],
+  "paymentChange": [
+    {
+      "label": "Your Account",
+      "url": "your-account.html"
+    },
+    {
+      "label": "Your payment methods",
+      "url": "your-payments.html"
+    },
+    {
+      "label": "Change payment methods",
+      "url": ""
+    }
+  ],
+  "addresses": [
+    {
+      "label": "Your Account",
+      "url": "your-account.html"
+    },
+    {
+      "label": "Your Addressses",
+      "url": ""
+    }
+  ],
+  "addressesUpdate": [
+    {
+      "label": "Your Account",
+      "url": "your-account.html"
+    },
+    {
+      "label": "Your Addressses",
+      "url": "your-address.html"
+    },
+    {
+      "label": "Request for change",
+      "url": ""
+    }
+  ],
+  "device": [
+    {
+      "label": "Your Account",
+      "url": "your-account.html"
+    },
+    {
+      "label": "Your devices",
+      "url": ""
+    }
+  ],
+  "tempStop": [
+    {
+      "label": "Your Account",
+      "url": "your-account.html"
+    },
+    {
+      "label": "Temporary Stop",
+      "url": ""
+    }
+  ],
+  "tempStopAdd": [
+    {
+      "label": "Your Account",
+      "url": "your-account.html"
+    },
+    {
+      "label": "Temporary Stop",
+      "url": "temp-stop.html"
+    },
+    {
+      "label": "Request Temporary Stop",
+      "url": ""
+    }
+  ],
+  "tempStopEdit": [
+    {
+      "label": "Your Account",
+      "url": "your-account.html"
+    },
+    {
+      "label": "Temporary Stop",
+      "url": "temp-stop.html"
+    },
+    {
+      "label": "Update Temporary Stop",
+      "url": ""
+    }
+  ],
+  "help": [
+    {
+      "label": "Help",
+      "url": "customer-care.html"
+    },
+    {
+      "label": "Contact Us",
+      "url": "contact-us.html"
+    }
+  ],
+  "giroForm": [
+    {
+      "label": "Help",
+      "url": ""
+    },
+    {
+      "label": "Customer care",
+      "url": "customer-care.html"
+    },
+    {
+      "label": "Download GIRO form",
+      "url": ""
+    }
+  ],
+  "customerSupport": [
+    {
+      "label": "Help",
+      "url": "customer-care.html"
+    },
+    {
+      "label": "Customer Support",
+      "url": ""
+    }
+  ]
+}

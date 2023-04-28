@@ -1,0 +1,126 @@
+{
+  "address_book": [
+    {
+      "addrId": "ad-1",
+      "fullNm": "Joanna Wong",
+      "mobileNo": "+6591119222",
+      "address": "20 Bedok Reservoir View ",
+      "unit": "#10-30",
+      "postal": "Singapore 470237",
+      "default": true,
+      "billing": true,
+      "delivery": true,
+      "packages": [
+        {
+          "packageNm": "The Straits Times All-In-One Daily-- Mthly Prepaid@$3.50",
+          "billing": true,
+          "delivery": true
+        },
+        {
+          "packageNm": "The Straits Times New Tablet Daily-- Mthly Prepaid@$14.90",
+          "billing": true,
+          "delivery": false
+        },
+        {
+          "packageNm": "The Straits Times New Tablet Daily-- Mthly Prepaid@$14.90",
+          "billing": true,
+          "delivery": false
+        }
+      ],
+      "edit": [
+        {
+          "type": "Change of Billing",
+          "address": "235 Lorong Ah Soo",
+          "unit": "#09-30",
+          "postal": "Singapore 530235",
+          "packageNm": [
+            {
+              "package": "The Straits Times All-In-One Daily-- Mthly Prepaid@$3.50"
+            },
+            {
+              "package": "The Straits Times New Tablet Daily-- Mthly Prepaid@$14.90"
+            }
+          ],
+          "effectiveDt": "01/06/2020"
+        },
+        {
+          "type": "Change of Delivery",
+          "address": "35 Hougang Ave 5",
+          "unit": "#19-30",
+          "postal": "Singapore 530035",
+          "packageNm": [
+            {
+              "package": "The Straits Times New Tablet Daily-- Mthly Prepaid@$14.90"
+            }
+          ],
+          "effectiveDt": "01/06/2020"
+        }
+      ]
+    },
+    {
+      "addrId": "ad-2",
+      "fullNm": "",
+      "mobileNo": "+65 90009222",
+      "address": "20 Bedok Reservoir View ",
+      "unit": "#10-30",
+      "postal": "Singapore 470237",
+      "default": false,
+      "billing": false,
+      "delivery": true,
+      "packages": [
+        {
+          "packageNm": "Lianhe Zaobao Print Daily-- Mthly Prepaid@$3.50",
+          "billing": false,
+          "delivery": true
+        }
+      ],
+      "edit": false
+    },
+    {
+      "addrId": "ad-4",
+      "fullNm": "Kevin Wong",
+      "mobileNo": "+65 91119000",
+      "address": "79 Hougang View ",
+      "unit": "#12-303",
+      "postal": "Singapore 470079",
+      "default": false,
+      "billing": false,
+      "delivery": true,
+      "packages": [
+        {
+          "packageNm": "Berita Harian All Digital -- Mthly Prepaid@$3.50",
+          "billing": false,
+          "delivery": true
+        }
+      ],
+      "edit": [
+        {
+          "type": "Change of Delivery",
+          "address": "235 Lorong Ah Soo",
+          "unit": "#09-30",
+          "postal": "Singapore 530235",
+          "packageNm": [
+            {
+              "package": "Berita Harian All Digital -- Mthly Prepaid@$3.50"
+            }
+          ],
+          "effectiveDt": "01/02/2021"
+        }
+      ]
+    },
+    {
+      "addrId": "ad-3",
+      "fullNm": "Joanna Wong",
+      "mobileNo": "+6591119222",
+      "address": "23 Lorong 2 Toa Payoh",
+      "unit": "#19-13",
+      "postal": "Singapore 470237",
+      "default": false,
+      "billing": false,
+      "delivery": false,
+      "packages": false,
+      "edit": false
+    }
+  ],
+  "empty_address_book": false
+}

@@ -1,0 +1,39 @@
+{
+    "cart_collection": [{
+        "cartId" : "001",
+        "firstNm": "Xinyu",
+        "lastNm": "Wong",
+        "delivery_firstNm": "Xinyu",
+        "delivery_lastNm": "Wong",
+        "delivery_po": "",
+        "delivery_address": "",
+        "delivery_floor": "",
+        "delivery_unit": "",
+        "billing_po": "",
+        "billing_address": "",
+        "billing_floor": "",
+        "billing_unit": "",
+        "contact_country": "65",
+        "contact_no": "91119000",
+        "billing_cycle": [{
+          "packageNm": "ST News Tablet",
+          "baseDollar": "24",
+          "baseCent": "90",
+          "term": "month",
+          "discountDollar": "",
+          "discountCent": ""
+        },
+        {
+          "packageNm": "Warranty",
+          "baseDollar": "3",
+          "baseCent": "00",
+          "term": "month",
+          "discountDollar": "",
+          "discountCent": ""
+        }],
+        "todays_bill": [{
+        }],
+        "total_today":[{
+        }]
+    }]
+}

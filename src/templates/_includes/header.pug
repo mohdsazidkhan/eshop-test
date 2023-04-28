@@ -1,0 +1,127 @@
+mixin comp-header
+  // HEADER - STARTS HERE
+  header.fluid-container(id="the-header")
+    +comp-ie-notifier({toggle:toggleIE})
+    .top-head
+      .row
+        div(class=(backToPub  ? 'col-6 col-md-3' : 'col-3'))
+          if backToPub
+            .back-to-pub
+            a(href='#').back-to-pub-container-desktop
+              img(src='./images/logos/SPHMedia-logo-blue.svg').back-arrow-left
+              h2 Back to
+              img(src="./images/logos/st-mini.png" class='pub-logo')
+              .line-container
+          .logo-container
+            a(href=absoluteUrl + "index.html",data-ajax="false")
+              img(src="./images/logos/SPHMedia-logo-blue.svg")
+        div(class=(backToPub  ? 'col-6 col-md-9' : 'col-9'))
+          .top-navi
+            ul.top-menu.desk-only
+              if !corpPlan
+                li
+                  a(href="promotions.html") Promotions
+                li
+                  a(href='corporate-plans.html') Corporate
+                    span.new-tag NEW
+                li.top-help
+                  a(href="javascript:;") Help
+                  ul.top-help-menu
+                    li
+                      a(href=absoluteUrl + "customer-care.html") Customer Care
+                    li
+                      a(href=absoluteUrl + "faq.html") FAQ
+                    li
+                      a(href=absoluteUrl + "useful-links.html") Useful Links
+                    li
+                      a(href=absoluteUrl + "contact-us.html") Contact Us
+              else
+                li
+                  a(href="javascript:;" class='js-corp-menu-listing' data-id="comp-promo-hero-panel-4") Overview
+                li
+                  a(href='javascript:;' class='js-corp-menu-listing' data-id="comp-promo-plan-benefit-default-1") Our plans
+                li
+                  a(href='javascript:;' class='js-corp-plan-cta' data-id="corp-plan-val-1")
+                    span.list-button Contact us
+                li
+                  a(href='javascript:;' class='js-corp-menu-listing' data-id="corps-plans-faq") FAQ
+              if !corpPlan
+                li.lang-switcher
+                  a(href="javascript:;", id="cur-lang") English
+                  ul.top-help-menu
+                    li
+                      a(href="#" id="en" data-val="English") English
+                    li
+                      a(href="#" id="zh" data-val="Chinese") Chinese
+            ul.navi-menu
+              if !corpPlan
+                li(id="nav-item-1").nav-item
+                  a(href="#",data-ajax="false", id="account-logged-in")
+                    if loggedIn
+                      //- img(src=imagesUrl + "/icons/user-loggedin.svg")
+                      include ../../images/icons/user-loggedin.svg
+                      span.loggedin.small-txt Hi, Kevin
+                      include ../../images/icons/down-arr-tri-solid.svg
+                      //- img(src=imagesUrl + "/icons/down-arr-tri-solid.svg").dropdown-icon
+                      .account-nav
+                        .account-lbl
+                          p.name-lbl Email: yosh@gmail.com.sg
+                        ul
+                          each item in accountSideBarNav
+                            li
+                              a(href=item.link) !{item.label}
+                              if item.child
+                                ul.child-item
+                                  each child in item.child
+                                    li
+                                      if child.label == pageNm
+                                        p.current !{child.label}
+                                      else
+                                        a(href=child.link) !{child.label}
+                        .account-footer
+                          a(href='#') Sign out
+                    else
+                      //- img(src=imagesUrl + "/icons/user-default.svg")
+                      include ../../images/icons/user-default.svg
+                      span Login
+                  //- if pageNm == 'Homepage'
+                    if !loggedIn
+                      .prompt.login
+                        .tri-up.center.up
+                        p.option-label  Login for better deals
+                        button.cta-button.login-prompt Login
+                        p Do not have an account?
+                          a(href="#") Sign Up Here
+                        .dismiss
+              li(id="nav-item-2").main-nav.nav-item
+                a(href="#",data-ajax="false")
+                  include ../../images/icons/menu-default.svg
+                  //- img(src=imagesUrl + "/icons/menu-default.svg")
+            .nav-drop(for="nav-item-2")
+              ul.in-navi-menu
+                li.nav-item.close-menu
+                  a(href="#",data-ajax="false")
+                    img(src=imagesUrl + '/icons/close-cross.svg')
+              ul.main-nav-menu(id="nav-child-2")
+                each navi in menuNavi
+                  if navi.child != false
+                    li.nav-child-item.got-child
+                      a(href="#",data-ajax="false") !{navi.label}
+                      each secNavi in navi.child
+                        if secNavi.child != false
+                          ul.second-lvl-nav
+                            li
+                              p !{secNavi.label}
+                              ul.third-lvl-nav
+                                each thirdNavi in secNavi.child
+                                  li
+                                    a(href=thirdNavi.link, target="_blank") !{thirdNavi.label}
+                        else
+                          ul.second-lvl-nav
+                            li
+                              a(href=secNavi.link, target="_blank",data-ajax="false") !{secNavi.label}
+                  else
+                    li.nav-child-item
+                      a(href=navi.link, target="_blank",data-ajax="false") !{navi.label}
+    +comp-maintenance-notifier({toggle:toggleMaintenace})
+  // HEADER - ENDS HERE

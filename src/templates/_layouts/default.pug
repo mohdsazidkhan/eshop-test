@@ -1,0 +1,36 @@
+extends ../_base/base.pug
+
+block layout
+  +comp-header
+  .window-overlay(id='overlayer')
+    .ball-wrap
+      .bounceball
+      .loading-msg
+  .wrap(class=wrapclass)
+    main.main
+      block content
+  +comp-footer
+  if catfish
+    +comp-catfish-checkout
+  .helper-box-overlay
+  .lightbox-overlay
+  .sph-lightbox(id="common")
+    .custom-ligthbox
+      .close-lightbox(for="common")
+        .close-wrapper
+          span Close
+          //- img(src=imagesUrl + '/icons/close-icon-black.svg')
+          include /src/images/icons/close-icon-black.svg
+      .lightbox-content
+        .window-overlay.lightbox(id="overlayer")
+          .ball-wrap
+            .bounceball
+        .lightbox-body(id="lbody")
+
+        div(id="error")
+  script(src=absoluteUrl + 'js/vendor/jquery.min.js')
+  script(src=absoluteUrl + 'js/vendor/bootstrap-datepicker.js')
+  script(src=absoluteUrl + 'js/vendor/select2.min.js')
+  script(src=absoluteUrl + 'js/vendor/validator.js')
+  script(src=absoluteUrl + "js/app.js")
+  block scripts

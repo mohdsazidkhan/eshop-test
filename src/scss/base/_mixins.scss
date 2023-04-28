@@ -1,0 +1,23 @@
+@mixin themed () {
+	@each $theme,
+	$map in $cthemes {
+		.theme--#{$theme} & {
+			$theme-map: () !global;
+			@each $key,
+			$submap in $map {
+				$value: map-get(map-get($cthemes, $theme), "#{$key}");
+				$theme-map: map-merge( $theme-map, ( $key: $value, )) !global;
+			}
+			@content;
+			$theme-map: null !global;
+		}
+	}
+}
+
+@mixin calc_width ($obj, $occurance) {
+  width: calc($occurance * #{$obj})
+}
+
+@function t($key) {
+  @return map-get($theme-map, $key);
+}

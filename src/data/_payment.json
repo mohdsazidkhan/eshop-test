@@ -1,0 +1,57 @@
+{
+  "payments": [
+    {
+      "paymentID": "visa",
+      "imageUrl": "images/logos/visa.png",
+      "label": "VISA"
+    },
+    {
+      "paymentID": "master",
+      "imageUrl": "images/logos/mc-sq.png",
+      "label": "Mastercard"
+    },
+    {
+      "paymentID": "amex",
+      "imageUrl": "images/logos/amex.png",
+      "label": "American Express"
+    },
+    {
+      "paymentID": "giro",
+      "imageUrl": "",
+      "label": "GIRO"
+    }
+  ],
+  "yourPayment": [
+    {
+      "paymentID": "amex-1",
+      "paymentType": "card",
+      "cardNo": "**3990",
+      "imageUrl": "images/logos/cc-amex.png",
+      "label": "American Express"
+    },
+    {
+      "paymentID": "mc-1",
+      "paymentType": "card",
+      "cardNo": "**0892",
+      "imageUrl": "images/logos/cc-master.png",
+      "label": "Mastercard"
+    }
+  ],
+  "yourGIRO": [
+    {
+      "paymentID": "g-001",
+      "paymentType": "giro",
+      "cardNo": "XXX-XXXX1-234"
+    },
+    {
+      "paymentID": "g-002",
+      "paymentType": "giro",
+      "cardNo": "XXX-XXXX5-678"
+    },
+    {
+      "paymentID": "g-003",
+      "paymentType": "giro",
+      "cardNo": "XXX-XXXX19-101"
+    }
+  ]
+}

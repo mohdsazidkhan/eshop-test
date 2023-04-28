@@ -1,0 +1,94 @@
+$icon-drop-shadow: -3px 2px 3px rgba(0, 0, 0, 0.25);
+
+// Spacing
+$padding-xxs: 4px;
+$padding-xs: 8px;
+$padding-sm: 16px;
+$padding-md: 32px;
+$padding-lg: 48px;
+$padding-form: 4px 14px;
+$spacer-header: 42px;
+$section-header-padding: ($spacer-header * 2) ($spacer-header * 2) 0;
+$mob-spacer-header: 10px;
+$mob-section-header-padding: ($mob-spacer-header * 6) ($mob-spacer-header * 2) 0;
+$listing-min-height: 430px;
+$container-limit: 1440px !important;
+// Background Color
+$background-blue-gradient: linear-gradient(to top, #3023ae -120%, #53a0fd);
+$background-blue-green-light-gradient: linear-gradient(
+  100deg,
+  rgba(48, 35, 174, 0.15),
+  rgba(83, 160, 253, 0.15) 49%,
+  rgba(156, 255, 135, 0.15) 102%
+);
+$background-blue-green-gradient: linear-gradient(
+  19deg,
+  rgba(48, 35, 174, 1),
+  rgba(83, 160, 253, 1) 49%,
+  rgba(156, 255, 135, 1) 102%
+);
+$background-greyfade: linear-gradient(
+  to left,
+  rgba(0, 0, 0, 0.9) 0%,
+  rgba(0, 0, 0, 0) 86%
+);
+$background-greyfade-rev: linear-gradient(
+  to right,
+  rgba(0, 0, 0, 0.9) 0%,
+  rgba(0, 0, 0, 0) 86%
+);
+$background-greyfade-top: linear-gradient(
+  to top,
+  rgba(0, 0, 0, 0.9) 0%,
+  rgba(0, 0, 0, 0) 36%
+);
+$background-lightgreyfade-top: linear-gradient(
+  to top,
+  rgba(0, 0, 0, 0.6) 0%,
+  rgba(0, 0, 0, 0) 36%
+);
+$background-lightgreyfade-top-mob: linear-gradient(
+  to top,
+  rgba(0, 0, 0, 0.7) 0%,
+  rgba(0, 0, 0, 0) 50%
+);
+$color-overlay: linear-gradient(
+  180deg,
+  rgba(196, 196, 196, 0) -1.71%,
+  #333333 63.45%
+);
+$color-overlay-white: linear-gradient(
+  180deg,
+  rgba(255, 255, 255, 0) -1.71%,
+  #fff 63.45%
+);
+$background-quick-link: linear-gradient(
+  312.11deg,
+  #ffffff 0.93%,
+  #dfe1e7 98.22%
+);
+$background-label: linear-gradient(180deg, #f8f9fa 100%, rgba(#f8f9fa, 0) 0%);
+$background-label-disabled: linear-gradient(
+  180deg,
+  rgba(#e9ecef, 0) 50%,
+  #e9ecef 50%
+);
+// border-radius
+$card-border-radius: 4px;
+$capsule-border-radius: 500px;
+$circle-border-radius: 50%;
+$button-border-radius: 8px;
+// breakpoints
+$grid-breakpoints: (
+  xs: 0,
+  sm: 480px,
+  md: 960px,
+  lg: 1200px,
+  xl: 1440px,
+);
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 1140px,
+  xl: 1366px,
+);

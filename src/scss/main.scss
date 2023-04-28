@@ -1,0 +1,31 @@
+// @import 'bootstrap modules';
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/grid";
+@import "../node_modules/bootstrap/scss/reboot";
+@import "../node_modules/bootstrap/scss/utilities";
+// Import base styles1
+@import "base/base-color";
+@import "base/color-tokens";
+@import "base/baseType";
+@import "base/baseVariables";
+@import "base/animation";
+@import "base/mixins";
+//Import color tokens and type tokens
+@import "base/themes";
+@import "base/typeThemeMob";
+@import "base/typeTheme";
+// Import components styles
+@import "base/typography";
+@import "layouts/header";
+@import "layouts/footer";
+@import "base/global";
+@import "components/components";
+@import "base/overwrites";
+// @import external libraries';
+@import "select2/core";
+@import "datepicker/datepicker";
+// Import layouts styles
+// Import pages styles
+@import "pages/index";

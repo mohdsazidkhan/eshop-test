@@ -1,0 +1,103 @@
+{
+	"renewal_existing_sub": {
+		"headline" : "Select an active subscription to change or buy a new subscription",
+		"sub_headline": "",
+		"subscription": true,
+		"plans": [
+			{
+				"id": "001",
+				"package_name": "The Straits Times All Digital + Print -- Mthly Prepaid",
+				"subscription": "31 Oct 2022",
+				"contract": false,
+				"active": true,
+				"description": false,
+				"ctaText": "Select"
+			},
+			{
+				"id": "002",
+				"package_name": "The Straits Times All Digital + Print",
+				"subscription": "31 Oct 2022",
+				"contract": false,
+				"active": true,
+				"description": false,
+				"ctaText": "Select"
+			},
+			{
+				"id": "003",
+				"package_name": "The Straits Times All Digital + Print",
+				"subscription": "31 Dec 2022",
+				"contract": false,
+				"active": false,
+				"description": "You can only make changes to this subscription after your contract has ended.",
+				"ctaText": "Select"
+			},
+			{
+				"id": "004",
+				"package_name": "The Straits Times All Digital",
+				"subscription": "10 Feb 2023",
+				"contract": false,
+				"active": false,
+				"description": false,
+				"ctaText": "Select"
+			},
+			{
+				"id": "005",
+				"package_name": "The Straits Times All Digital - 12 Mths Term",
+				"subscription": "02 Jun 2023",
+				"contract": false,
+				"active": false,
+				"description": "You cannot make any changes to this plan.",
+				"ctaText": "Select"
+			}
+		]
+	},
+	"renewal_no_sub": {
+		"headline" : "You have active subscription(s) with us. Would you like to buy a new subscription?",
+		"plans": [
+			{
+				"id": "007",
+				"package_name": "The Straits Times All Digital + Print ",
+				"subscription": false,
+				"contract": "31 Dec 2022",
+				"active": false,
+				"description": "You can only make changes to this subscription after your contract has ended.",
+				"ctaText": "Select"
+			},
+			{
+				"id": "007",
+				"package_name": "The Straits Times All Digital",
+				"subscription": false,
+				"contract": "16 Jan 2023",
+				"active": false,
+				"description": "You can only make changes to this subscription after your contract has ended.",
+				"ctaText": "Select"
+			}
+		]
+	},
+	"staff_sub": {
+		"headline" : "You have an existing subscription",
+		"sub_headline": "You are currently subscribed to <strong>The Straits Times Print</strong>. Please select a different plan to proceed.",
+		"subscription": false,
+		"staff_plan": true,
+		"plans": [
+			{
+				"id": "007",
+				"package_name": "The Straits Times Print",
+				"subscription": false,
+				"contract": false,
+				"active": true,
+				"change": true,
+				"description": false,
+				"ctaText": "Change"
+			}
+		]
+	},
+	"m_one": {
+		"headline" : "You have an existing subscription to The Straits Times",
+		"sub_headline": "You are currently subscribed to <strong>The Straits Times</strong>. Please select a different plan to proceed or use this link on another account,",
+		"subscription": false,
+		"staff_plan": false,
+		"mobile_one_plan": true,
+		"plans": []
+	}
+}
